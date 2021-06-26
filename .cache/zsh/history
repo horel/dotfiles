@@ -1,0 +1,334 @@
+cd .cache/
+mkdir zsh
+touch .history
+vi ~/.config/zsh/.zshrc
+vim ~/.config/zsh/.zshrc
+mv .history history
+cd
+sudo pacman -Syu
+sudo pacman -S fcitx5 fcitx5-chinese-addons fcitx5-qt fcitx5-gtk
+vim .xprofile
+reboot
+clash
+fcitx5
+reboot
+clash
+la
+vim .config/fcitx5/conf/cloudpinyin.conf
+vim .config/fcitx5/conf/classicui.conf
+fcitx5
+vim .config/fcitx5/conf/classicui.conf
+vim .config/fcitx5/conf/pinyin.conf
+vim .config/fcitx5/conf/pinyin.conf
+fcitx5
+vim .config/fcitx5/conf/pinyin.conf
+clash
+reboot
+reboot
+clash
+reboot
+clash
+sudo pacman -S fcitx5-qt fcitx5-gtk
+cd /boot/grub/themes
+la
+clash
+cd Downloads/aur
+git clone https://github.com/vinceliuice/grub2-themes.git
+cd grub2-themes
+la
+sudo ./install.sh -t -b vimix
+sudo ./install.sh -t -b Vimix
+./install.sh --help
+sudo ./install.sh -b -t vimix
+vim /etc/default/grub
+reboot
+cd Downloads/aur/grub2-themes
+./install.sh --help
+sudo ./install.sh -b -t vimix -i whitesur
+reboot
+cd Downloads/aur/grub2-themes
+sudo ./install.sh -b -t vimix -i white
+sudo pacman -S telegram-desktop
+sudo pacman -S typora
+sudo pacman -S visual-studio-code-bin
+clash
+sudo pacman -S fcitx5-chinese-addons
+sudo pacman -S fcitx5-qt4-git
+vim .xprofile
+reboot
+yay -Syu
+yay -Sc
+df
+pidof clash
+la
+clear
+df
+nvidia-smi
+neofetch
+clear
+clash
+clash
+systemctl --user enable clash.service
+reboot
+la
+sudo pacman -S gcc gdb clang llvm
+yay -Sc
+df
+la
+clear
+sudo pacman -S android-tools
+adb --version
+la
+nvim
+sudo pacman -S nodejs yarn
+nvidia-smi
+sudo pacman -S neovim python
+sudo pacman -S python-neovim
+sudo pacman -S xsel
+nvim
+yarn global add neovim
+vi .gitconfig
+vi .yarnrc
+yarn global add neovim
+sudo pacman -S ruby gem
+sudo pacman -S ruby
+nvim
+clash
+gem install neovim
+nvim 
+ls
+la
+nvim 
+gem uninstall neovim
+gem uninstall neovim
+gem uninstall neovim
+gem uninstall neovim
+sudo pacman -Rns ruby
+gem uninstall neovim
+clear
+nvim
+cd .config/
+mkdir nvim
+cd nvim
+vi init.vim
+vi coc-settings.json
+vi coc-settings.json
+mkdir 01-general.vim
+rm -rf 01-general.vim
+vi 01-general.vim
+mkdir rc.d
+mv 01-general.vim rc.d
+la
+cd rc.d
+vi 01-general.vim
+source ../init.vim
+vi 01-general.vim
+vi 01-general.vim
+vi 01-general.vim
+vi 02-plugins.vim
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \\
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'\
+
+sudo pacman -S proxychains-ng
+proxychains
+proxy
+cd
+vi /etc/proxychains.conf
+sudo vi /etc/proxychains.conf
+sudo vim /etc/proxychains.conf
+cd -
+la
+proxychains sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \\
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+nvim
+vi 01-general.vim
+vi 01-general.vim
+vi 01-general.vim
+vi 01-general.vim
+vi 01-general.vim
+vi 01-general.vim
+vi 01-general.vim
+vi 01-general.vim
+vi 02-plugins.vim
+vi 02-plugins.vim
+vi 02-plugins.vim
+vi 02-plugins.vim
+vi 02-plugins.vim
+vi 02-plugins.vim
+vi 02-plugins.vim
+nvim
+vi 02-plugins.vim
+vi 03-plugins-settings.vim
+vi 03-plugins-settings.vim
+vi 02-plugins.vim
+vi 03-plugins-settings.vim
+sudo pacman -Ss nerd
+sudo pacman -S ttf-nerd-fonts-symbols
+sudo pacman -S ttf-nerd-fonts-symbols-mono
+clear
+vi 03-plugins-settings.vim
+sudo pacman -Ss sarasa
+cd .config/nvim/rc.d
+vi 02-plugins.vim
+vi 02-plugins.vim
+vi 02-plugins.vim
+vi 02-plugins.vim
+vi 02-plugins.vim
+vi 02-plugins.vim
+vi 02-plugins.vim
+vi 02-plugins.vim
+vi ~/.config/alacritty/alacritty.yml
+clear
+vi ~/.config/alacritty/alacritty.yml
+vi ~/.config/alacritty/alacritty.yml
+clear
+la
+vi 02-plugins.vim
+vi 03-plugins-settings.vim
+source ../init.vim
+la
+nvim
+clear
+shutdown now
+cd .config
+cd
+la
+rm -rf .viminfo
+mkdir Code
+la
+cd Code
+la
+sudo pacman -S ctags
+sudo pacman -S universal-ctags-git
+cd Code
+vi hello.cpp
+vi hello.cpp
+vi hello.cpp
+vi hello.cpp
+vi hello.cpp
+la
+clear
+nvim
+z rc.d
+vi 02-plugins.vim
+vi 03-plugins-settings.vim
+vi 02-plugins.vim
+vi 03-plugins-settings.vim
+vi 03-plugins-settings.vim
+vi ~/.config/alacritty/alacritty.yml
+vi ~/.config/alacritty/alacritty.yml
+vi 03-plugins-settings.vim
+vi 03-plugins-settings.vim
+vi 03-plugins-settings.vim
+vi 02-plugins.vim
+vi 03-plugins-settings.vim
+vi 02-plugins.vim
+vi 02-plugins.vim
+vi 02-plugins.vim
+vi 02-plugins.vim
+vi 03-plugins-settings.vim
+vi 03-plugins-settings.vim
+vi 03-plugins-settings.vim
+vi 03-plugins-settings.vim
+vi 03-plugins-settings.vim
+vi 03-plugins-settings.vim
+vi 03-plugins-settings.vim
+vi 03-plugins-settings.vim
+vi 03-plugins-settings.vim
+vi 02-plugins.vim
+vi 02-plugins.vim
+vi 02-plugins.vim
+vi 02-plugins.vim
+vi 01-general.vim
+vi 02-plugins.vim
+vi 02-plugins.vim
+vi 01-general.vim
+vi 01-general.vim
+vi 01-general.vim
+clear
+yay -Syu
+df
+vi 02-plugins.vim
+vi 02-plugins.vim
+vi 02-plugins.vim 
+vi 02-plugins.vim 
+vi 02-plugins.vim 
+vi 02-plugins.vim 
+vi 02-plugins.vim 
+vi 02-plugins.vim 
+vi 02-plugins.vim 
+vi 02-plugins.vim 
+vi 02-plugins.vim 
+vi 02-plugins.vim 
+vi 02-plugins.vim 
+vi 02-plugins.vim 
+vi 02-plugins.vim
+vi 02-plugins.vim
+sudo pacman -S clang
+vi 02-plugins.vim
+vi 02-plugins.vim
+vi 01-general.vim
+vi 01-general.vim
+vi 01-general.vim
+vi 01-general.vim
+vi 02-plugins.vim
+vi 03-plugins-settings.vim
+cd Code
+touch .clang-format
+clang-format --help
+clang-format --dump-config --style="{BasedOnStyle: llvm, IndentWidth: 4}"
+clang-format --dump-config --style="{BasedOnStyle: llvm, IndentWidth: 4}" > .clang-format
+vi hello.cpp
+clear
+cd Code
+vi hello.cpp
+vi /run/media/limbo/Gapcolt/dotfiles/dotfiles/.cache/zsh/history
+sudo pacman -Syu
+yay -Syu
+sudo pacman -S xfsdump
+yay -Sc
+cd Documents
+la
+chmod -x èµƒ¤æƒ¶ƒ¹
+la
+node -v
+yarn -v
+sudo pacman -Ss hexo
+cd Blog
+la
+yarn
+yarn install
+yarn install -g hexo-cli
+yarn global add hexo-cli
+hexo s
+hexo g
+hexo s
+hexo d
+df
+yay -Sc
+reboot
+df
+cd Downloads
+sudo xfsdump -l 0 -L root_all -M root_all -f ./root.dump /
+sudo xfsdump -l 0 -L home_all -M home_all -f ./home.dump /home
+mv root.dump /run/media/limbo/Gapcolt/
+ls
+l
+vi ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+reboot
+df
+vi .config/zsh/.zshrc
+tree
+df
+cd Documents
+chmod -x èµƒ¤æƒ¶ƒ¹
+la
+df
+df
+reboot
+df
+sudo xfsdump -l 0 -L home_all -M home_all -f ./home.dump /home
+mv home.dump /run/media/limbo/Gapcolt/
+reboot
+vi .config/zsh/.zshrc
