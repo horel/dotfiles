@@ -6,7 +6,7 @@ categories:
 tags:
   - 教程
   - Linux
-date: 2021-06-26 22:50:04
+date: 2021-04-26 22:50:04
 ---
 
 # 安装前的准备工作
@@ -402,6 +402,10 @@ yarn install
 ### Tampermonkey
 
 > 全放在chrome书签栏里了
+
+## 其他软件
+
+- ImageMagick	安装后可使用display命令
 
 # 美化
 
