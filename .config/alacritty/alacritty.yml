@@ -42,35 +42,87 @@ font:
 
   size: 14.0
 
-background_opacity: 0.95
+background_opacity: 1.0
 
 # Colors (Pencil Dark)
+#colors:
+#  # Default Colors
+#  primary:
+#    background: '#212121'
+#    foreground: '#B3B1AD'
+#  # Normal colors
+#  normal:
+#    black:   '#212121'
+#    red:     '#c30771'
+#    green:   '#10a778'
+#    yellow:  '#a89c14'
+#    blue:    '#008ec4'
+#    magenta: '#523c79'
+#    cyan:    '#20a5ba'
+#    white:   '#C7C7C7'
+#  # Bright colors
+#  bright:
+#      #black:   '#212121'
+#      #black:   '#566270'
+#      #black:   '#52616a'
+#      #black:   '#3e4149'
+#    black:   '#454552'
+#    red:     '#fb007a'
+#    green:   '#5fd7af'
+#    yellow:  '#f3e430'
+#    blue:    '#20bbfc'
+#    magenta: '#6855de'
+#    cyan:    '#4fb8cc'
+#    white:   '#FFFFFF'
+
+# Colors (One Dark - https://github.com/atom/atom/tree/master/packages/one-dark-syntax)
 colors:
-  # Default Colors
   primary:
-    background: '#212121'
-    foreground: '#B3B1AD'
-  # Normal colors
+    background: '#282c34'
+    foreground: '#abb2bf'
+  cursor:
+    text:       CellBackground
+    cursor:     '#528bff' # syntax-cursor-color
+  selection:
+    text:       CellForeground
+    background: '#3e4451' # syntax-selection-color
   normal:
-    black:   '#212121'
-    red:     '#c30771'
-    green:   '#10a778'
-    yellow:  '#a89c14'
-    blue:    '#008ec4'
-    magenta: '#523c79'
-    cyan:    '#20a5ba'
-    white:   '#C7C7C7'
-  # Bright colors
-  bright:
-      #black:   '#212121'
-      #black:   '#566270'
-      #black:   '#52616a'
-      #black:   '#3e4149'
-    black:   '#454552'
-    red:     '#fb007a'
-    green:   '#5fd7af'
-    yellow:  '#f3e430'
-    blue:    '#20bbfc'
-    magenta: '#6855de'
-    cyan:    '#4fb8cc'
-    white:   '#FFFFFF'
+    black:      '#5c6370' # mono-3
+    red:        '#e06c75' # red 1
+    green:      '#98c379'
+    yellow:     '#e5c07b' # orange 2
+    blue:       '#61afef'
+    magenta:    '#c678dd'
+    cyan:       '#56b6c2'
+    white:      '#828997' # mono-2
+
+# Colors (My_Own)
+#colors:
+#  # Default Colors
+#  primary:
+#    background: '#282c34'
+#    foreground: '#abb2bf'
+#  # Normal colors
+#  normal:
+#    black:   '#212121'
+#    red:     '#c30771'
+#    green:   '#10a778'
+#    yellow:  '#a89c14'
+#    blue:    '#008ec4'
+#    magenta: '#523c79'
+#    cyan:    '#20a5ba'
+#    white:   '#C7C7C7'
+#  # Bright colors
+#  bright:
+#      #black:   '#212121'
+#      #black:   '#566270'
+#      #black:   '#52616a'
+#      #black:   '#3e4149'
+#    black:   '#454552'
+#    red:     '#fb007a'
+#    green:   '#5fd7af'
+#    yellow:  '#f3e430'
+#    blue:    '#20bbfc'
+#    magenta: '#6855de'
+#    cyan:    '#4fb8cc'
+#    white:   '#FFFFFF'

@@ -1,17 +1,17 @@
 " Colorscheme
 set termguicolors
-"let g:onedark_terminal_italics = 1
-"colorscheme onedark
-let g:sonokai_style = 'atlantis'
-let g:sonokai_enable_italic = 1
-let g:sonokai_diagnostic_line_highlight = 1
-let g:sonokai_transparent_background = 1
-colorscheme sonokai
+let g:onedark_terminal_italics = 1
+colorscheme onedark
+" let g:sonokai_style = 'atlantis'
+" let g:sonokai_enable_italic = 1
+" let g:sonokai_diagnostic_line_highlight = 1
+" let g:sonokai_transparent_background = 1
+" colorscheme sonokai
 
 
 " Airline
-"let g:airline_theme = 'onedark'
-let g:airline_theme = 'sonokai'
+let g:airline_theme = 'onedark'
+" let g:airline_theme = 'sonokai'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 
@@ -81,6 +81,11 @@ nmap <leader>rn <Plug>(coc-rename)
 " Apply AutoFix to problem on the current line.
 nmap <leader>qf  <Plug>(coc-fix-current)
 
+" Add `:Format` command to format current buffer.
+command! -nargs=0 Format :call CocAction('format')
+
+nnoremap<silent> <leader>lf :Format<CR>
+
 " Coc-snippets
 " Use <C-j> for jump to next placeholder, it's default of coc.nvim
 let g:coc_snippet_next = '<c-j>'
@@ -103,6 +108,18 @@ let g:vista_default_executive = 'ctags'
 " Vista map
 nmap <leader>vc :Vista<CR>
 nmap <leader>vl :Vista coc<CR>
+
+" Treesitter
+lua <<EOF
+require'nvim-treesitter.configs'.setup {
+    highlight = {
+        enable = true
+    },
+    indent = {
+        enable = true
+    }
+}
+EOF
 
 
 "st diffopt+=internal,algorithm:patience

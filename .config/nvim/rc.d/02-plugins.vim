@@ -1,6 +1,6 @@
 call plug#begin('~/.cache/nvim/pluged')
-"Plug 'joshdick/onedark.vim'
-Plug 'sainnhe/sonokai'
+Plug 'joshdick/onedark.vim'
+" Plug 'sainnhe/sonokai'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'mhinz/vim-startify'
@@ -20,5 +20,6 @@ Plug 'honza/vim-snippets'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'liuchengxu/vista.vim'     "// <sapce>vc <sapce>vl
 Plug 'jackguo380/vim-lsp-cxx-highlight'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
 call plug#end()
 

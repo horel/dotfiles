@@ -95,10 +95,10 @@ sudo pacman -S ruby
 nvim
 clash
 gem install neovim
-nvim 
+nvim
 ls
 la
-nvim 
+nvim
 gem uninstall neovim
 gem uninstall neovim
 gem uninstall neovim
@@ -250,18 +250,18 @@ yay -Syu
 df
 vi 02-plugins.vim
 vi 02-plugins.vim
-vi 02-plugins.vim 
-vi 02-plugins.vim 
-vi 02-plugins.vim 
-vi 02-plugins.vim 
-vi 02-plugins.vim 
-vi 02-plugins.vim 
-vi 02-plugins.vim 
-vi 02-plugins.vim 
-vi 02-plugins.vim 
-vi 02-plugins.vim 
-vi 02-plugins.vim 
-vi 02-plugins.vim 
+vi 02-plugins.vim
+vi 02-plugins.vim
+vi 02-plugins.vim
+vi 02-plugins.vim
+vi 02-plugins.vim
+vi 02-plugins.vim
+vi 02-plugins.vim
+vi 02-plugins.vim
+vi 02-plugins.vim
+vi 02-plugins.vim
+vi 02-plugins.vim
+vi 02-plugins.vim
 vi 02-plugins.vim
 vi 02-plugins.vim
 sudo pacman -S clang
@@ -332,3 +332,3151 @@ sudo xfsdump -l 0 -L home_all -M home_all -f ./home.dump /home
 mv home.dump /run/media/limbo/Gapcolt/
 reboot
 vi .config/zsh/.zshrc
+cd Documents
+la
+mkdir dotfiles
+cp ../.xprofile dotfiles
+cd dotfiles
+la
+cp ~/.yarnrc
+cp ~/.yarnrc .
+cp ~/.gitconfig .
+cp ~/.config/alacritty . -r
+cp ~/.config/clash . -r
+la
+mkdir .config
+mv alacritty .config
+mv clash .config
+cd .config
+cp ~/.config/fcitx5 . -r
+cp ~/.config/fontconfig -r
+cp ~/.config/fontconfig . -r
+mkdir zsh
+cd zsh
+cp ~/.config/zsh/.zshrc .
+cp ~/.config/zsh/plugins . -r
+la
+cd ..
+mkdir nvim
+cd nvim
+cp ~/.config/nvim/coc-settings.json .
+cp ~/.config/nvim/init.vim .
+cp ~/.config/nvim/rc.d . -r
+cd ..
+la
+cd clash
+la
+vi config.yaml
+vi config.yaml
+wget https://sub.wsl.icu/link/vG70Pu80AJPCL1BI?clash=2 -o config.yaml
+vi config.yaml
+wget https://sub.wsl.icu/link/vG70Pu80AJPCL1BI?clash=2 -O config.yaml
+vi config.yaml
+cd ..
+la
+cd ..
+la
+mkdir .local
+cd .local
+mkdir share
+cd share
+cp -r ~/.local/share/fonts .
+la
+cp -r ~/.local/share/icons .
+cd ../..
+mkdir .cache
+cd .cache
+cp ~/.cache/history .
+vi history
+cp ~/.cache/zsh .
+cp ~/.cache/zsh . -r
+cd Downloads
+cd a
+cd aur
+git clone https://aur.archlinux.org/papirus-folders-git.git
+cd papirus-folders-git
+la
+makepkg -si
+papirus-folders -l --theme Papirus-Dark
+papirus-folders -l --theme Papirus-Light
+papirus-folders -C teal --theme Papirus-Light
+cd Documents/dotfiles
+git init
+git remote add origin https://github.com/horel/dotfiles.git
+git add .
+git commit -m "2021-06-26"
+git add .
+git push origin main -u
+git push -u origin main
+la
+cd .local
+la
+cd share
+la
+cd icons
+la
+cd
+cd Documents/dotfiles
+la
+cd .local
+la
+cd share
+la
+cd icons
+la
+rm -rf Papirus*
+la
+cd
+cd Documents/dotfiles
+rm -rf .git
+git init
+git remote add origin https://github.com/horel/dotfiles.git
+git add .
+git commit -m "2021-06-26"
+git push origin main -u
+git push origin master -u
+cd
+la
+df
+clear
+gdisk --help
+gdisk /dev/nvme0n1
+gdisk /dev/nvme1n1
+gdisk /dev/nvme1n1p2
+lsblk
+gdisk /dev/sdb
+gdisk /dev/sda
+sudo gdisk /dev/sdb
+sudo gdisk /dev/sdb
+lsblk
+sudo gdisk /dev/sdb
+sudo gdisk /dev/sdb
+vim /etc/default/grub
+vim /etc/default/grub
+cd Documents/Blog
+hexo cl
+hexo g
+hexo d
+hexo s
+shutdown now
+yay -Syu
+la
+rm -rf .viminfo
+la
+reboot
+la
+sudo pacman -Qs chrome-
+sudo pacman -Qs visual
+pacman -Qs fcitx5
+sudo pacman -Ss xcursor-breeze
+sudo pacman -Ss breeze
+yay -Ss xcursor-breeze
+z aur
+cd ..
+git clone https://aur.archlinux.org/xcursor-breeze.git
+cd xcursor-breeze
+la
+makepkg -si
+cd
+cd Documents/dotfiles/.local/share
+la
+git rm icons/
+git rm icons/ -r
+la
+cd ../..
+git commit -m "2021-06-27"
+git push origin master
+vi .config/alacritty/alacritty.yml
+vi .config/zsh
+cd .config/zsh
+la
+cd plugins
+la
+cd
+cd .config/clash
+la
+wget https://sub.wsl.icu/link/vG70Pu80AJPCL1BI?clash=1 -O config.yaml
+sudo vim /etc/proxychains.conf
+vim /etc/proxychains.conf
+nvim
+sudo pacman -S python
+nvim
+nvim
+cd Documents/dotfiles/.config/clash
+la
+git rm config.yaml
+vi vG70Pu80AJPCL1BI\?clash=2
+git rm vG70Pu80AJPCL1BI\?clash=2
+cd
+z /home/limbo/Documents/dotfiles
+la
+git commit -m "2021-06-27"
+git push origin master
+pacman -S ttf
+pacman -Qs ttf
+pacman -Qs adobe
+pacman -Qs jetbrains
+gcc -v
+cd Documents/dotfiles/
+cd Documents
+cd Blog
+la
+hexo cl
+hexo g
+hexo s
+vi themes/shoka/_config.yml
+vi _config.shoka.yml
+la
+git checkout -b source_code
+git
+cd ..
+cp -r Blog back
+cd b
+cd Blog
+git init
+git remote add origin https://github.com/horel/horel.github.io.git
+git add .
+git commit -m "source_code"
+git push origin master:source
+git branch
+git checkout -b source
+git branch
+git add .
+git commit -m "source_code"
+git push origin master:source
+git branch
+z blog
+git branch
+cd Documents
+la
+rm -rf back
+la
+shutdown now
+z dot
+git add .
+git commit -m "2021-06-27"
+git push origin master
+z blog
+hexo g
+hexo d
+shutdown now
+yay -Syu
+df
+yay -Sc
+sudo xfsdump -l 0 -L home_all -M home_all -f ./home.dump /home
+la
+mv home.dump /run/media/limbo/Gapcolt
+cd Downloads
+df
+sudo xfsdump -l 0 -L root_all -M root_all -f ./root.dump /
+mv root.dump /run/media/limbo/Gapcolt/
+la
+df
+cd Code
+mkdir SDL
+la
+rm -rf hello.cpp
+cd SDL
+sudo pacman -S jdk-openjdk
+sudo pacman -S cmake
+sudo pacman -S make cmake
+g++
+g++ --help
+gcc --help
+sudo pacman -S SDL2
+sudo pacman -S sdl2
+vi 01_hello_SDL.cpp
+vi ~/.config/zsh/.zshrc
+cd Downloads/02_getting_an_image_on_the_screen
+vi 02_getting_an_image_on_the_screen.cpp
+z sdl
+vi 02_getting_an_image_on_the_screen.cpp
+z sdl
+la
+vi 01_hello_SDL.cpp
+cl++ 01_hello_SDL.cpp -W -lSDL
+cl++ 01_hello_SDL.cpp -W -lSDL2
+./a.out
+vi 01_hello_SDL.cpp
+./a.out
+cl++ 01_hello_SDL.cpp -W -lSDL2
+./a.out
+./a.out
+vi 02_getting_an_image_on_the_screen.cpp
+cl++ 02_getting_an_image_on_the_screen.cpp -lSDL2
+cl++ 02_getting_an_image_on_the_screen.cpp -lSDL2 -W
+cl++ 02_getting_an_image_on_the_screen.cpp -lSDL2
+cl++ 02_getting_an_image_on_the_screen.cpp -lSDL2
+cl++ --hwlp
+cl++ --help
+./a.out
+vi 02_getting_an_image_on_the_screen.cpp
+la
+vi 02_getting_an_image_on_the_screen.cpp
+cl++ 02_getting_an_image_on_the_screen.cpp -lSDL2
+./a.out
+./a.out
+vi 02_getting_an_image_on_the_screen.cpp
+cl++ 02_getting_an_image_on_the_screen.cpp -lSDL2
+./a.
+./a.out
+vi 02_getting_an_image_on_the_screen.cpp
+cl++ 02_getting_an_image_on_the_screen.cpp -lSDL2
+./a.
+./a.out
+ffmpeg -i a.bmp a.bmp
+cl++ 02_getting_an_image_on_the_screen.cpp -lSDL2
+./a.out
+ffmpeg --help
+ffmpeg -i -s 1280x720 a.bmp a.bmp
+ffmpeg -s -i 1280x720 a.bmp a.bmp
+ffmpeg -s 1280x720 -i a.bmp a.bmp
+diaplay a.bmp
+sudo pacman -S display
+ffmpeg -s 1280x720 -i a.bmp b.bmp
+ffmpeg -s 1280x720 -i a.bmp b.bmp
+vi 02_getting_an_image_on_the_screen.cpp
+cl++ 02_getting_an_image_on_the_screen.cpp -lSDL2
+./a.
+./a.out
+./a.out
+./a.bmp
+ffmpeg -i a.bmp -s 1280x720 b.bmp
+diaplay
+sudo pacman -Ss display
+sudo pacman -S mpv
+sudo pacman -S imagemagick
+display hello_world.bmp
+vi 02_getting_an_image_on_the_screen.cpp
+vi 02_getting_an_image_on_the_screen.cpp
+cl++ 02_getting_an_image_on_the_screen.cpp -lSDL2
+ffmpeg -i a.jpg -s 1280x720 a.bmp
+display hello_world.bmp
+./a.out
+ffmpeg -i a.jpg  a.bmp
+./a.out
+clear
+vi 02_getting_an_image_on_the_screen.cpp
+ffmpeg -i hello_world.jpg -s 1140x470 hello_world.bmp
+cl++ 02_getting_an_image_on_the_screen.cpp -lSDL2
+./a.out
+vi 02_getting_an_image_on_the_screen.cpp
+cl++ 02_getting_an_image_on_the_screen.cpp -lSDL2
+ffmpeg -i hello_world.jpg -s 2280x940 hello_world.bmp
+rm -rf hello_world.jpg
+./a.out
+ffmpeg -i hello_world.bmp -s 1710x705 hello_world.bmp
+ffmpeg -i hello_world.bmp -s 1710x705 hello_world.jpg
+ffmpeg -i hello_world.jpg -s 1710x705 hello_world.bmp
+vi 02_getting_an_image_on_the_screen.cpp
+cl++ 02_getting_an_image_on_the_screen.cpp -lSDL2
+./a.out
+rm -rf hello_world.jpg
+la
+clear
+./a.out
+vi 03_event_driven_programming.cpp
+cp 02_getting_an_image_on_the_screen.cpp 03_event_driven_programming.cpp
+vi 03_event_driven_programming.cpp
+la
+la
+cl++ 03_event_driven_programming.cpp -lSDL2
+./a.out
+./a.out
+cp 03_event_driven_programming.cpp 04_key_presses.cpp
+vi 04_key_presses.cpp
+vi .config/nvim/rc.d/02-plugins.vim
+vi .config/nvim/rc.d/02-plugins.vim
+vi .config/nvim/rc.d/03-plugins-settings.vim
+vi .config/nvim/rc.d/03-plugins-settings.vim
+vi .config/alacritty/alacritty.yml
+vi .config/alacritty/alacritty.yml
+vi .config/alacritty/alacritty.yml
+clear
+la
+la
+clear
+la
+clear
+sudo pacman -Syu
+sudo pacman -Syu
+yay -Syu
+clear
+la
+ls
+clear
+sudo pacman -Syu
+vi .config/alacritty/alacritty.yml
+vi .config/alacritty/alacritty.yml
+clear
+sudo pacman -Syu
+vi .config/alacritty/alacritty.yml
+sudo pacman -Syu
+vi .config/alacritty/alacritty.yml
+clear
+la
+sudo pacman -Syu
+sudo pacman -Syu
+yay -Syu
+vi .config/alacritty/alacritty.yml
+vi .config/alacritty/alacritty.yml
+vi .config/alacritty/alacritty.yml
+vi .config/alacritty/alacritty.yml
+clear
+vi .config/alacritty/alacritty.yml
+clear
+vi .config/alacritty/alacritty.yml
+clear
+vi .config/alacritty/alacritty.yml
+clear
+clear
+vi .config/alacritty/alacritty.yml
+clear
+la
+clear
+vi .config/alacritty/alacritty.yml
+vi .config/alacritty/alacritty.yml
+vi .config/alacritty/alacritty.yml
+clear
+vi .config/alacritty/alacritty.yml
+clear
+vi .config/alacritty/alacritty.yml
+vi .config/alacritty/alacritty.yml
+clear
+la
+nvim
+vi .config/nvim/rc.d/03-plugins-settings.vim
+printf "\x1b[38;2;255;100;0mTRUECOLOR\x1b[0m\n"
+vi .config/nvim/rc.d/03-plugins-settings.vim
+vi .config/alacritty/alacritty.yml
+vi .config/alacritty/alacritty.yml
+clear
+vi .config/alacritty/alacritty.yml
+z sdl
+vi 04_key_presses.cpp
+cd
+vi .config/alacritty/alacritty.yml
+clear
+nvim
+clear
+nvim
+vi .config/nvim/rc.d/03-plugins-settings.vim
+vi .config/nvim/rc.d/03-plugins-settings.vim
+vi .config/nvim/rc.d/02-plugins.vim
+vi .config/nvim/rc.d/02-plugins.vim
+clear
+z sdl
+vi 04_key_presses.cpp
+shutdown now
+yay -Syu
+clear
+la
+rm -rf .viminfo
+la
+reboot
+yay -Ss eclipse
+clear
+sudo pacman -S j
+clear
+sudo pacman -Ss eclipse
+clear
+sudo pacman -Ss eclipse
+java -v
+java -V
+java -help
+java -version
+clear
+cd Code
+mkdir Java
+cd Java
+vi hello.java
+mv hello.java HelloWorld.java
+clear
+archlinux-java status
+vi HelloWorld.java
+javac HelloWorld.java
+java HelloWorld
+la
+clear
+la
+clear
+la
+vi HelloWorld.java
+vi HelloWorld.class
+sudo pacman -S openjdk-doc
+clear
+la
+ja
+java HelloWorld
+clear
+la
+sudo pacman -S maven
+sudo pacman -S unzip webkit2gtk
+clear
+la
+clear
+vi Homework1.java
+javac Homework1.java
+vi Homework1.java
+vi Homework1.java
+javac Homework1.java
+vi Homework1.java
+javac Homework1.java
+vi Homework1.java
+javac Homework1.java
+vi Homework1.java
+javac Homework1.java
+vi Homework1.java
+javac Homework1.java
+java Homework1
+vi Homework1.java
+vi Homework1.java
+javac Homework1.java
+java Homework1
+vi Homework1.java
+java Homework1
+javac Homework1.java
+java Homework1
+java Homework1
+vi Homework1.java
+javac Homework1.java
+java Homework1
+java Homework2
+vi Homework2
+vi Homework1
+vi Homework1.java
+vi Homework2
+vi Homework1.java
+vi Homework2
+la
+mv Homework2 Homework2.java
+vi Homework2.java
+javac Homework2.java
+java Homework2
+vi Homework2.java
+javac Homework2.java
+java Homework2
+vi Homework2.java
+vi Homework2.java
+javac Homework2.java
+java Homework2
+vi Homework2.java
+vi Homework2.java
+javac Homework2.java
+java Homework2
+vi Homework2.java
+javac Homework2.java
+java Homework2
+vi Homework2.java
+clear
+la
+java Homework1
+java Homework2
+la
+vi Homework1.java
+vi Homework1.java
+java Homework1
+java Homework2
+sudo pacman -S eclipse-java
+clear
+yay -Syu
+sudo pacman -S idea
+cd Code/Java
+vi A.java
+javac A.java
+java A
+shutdown now
+la
+clear
+shutdown now
+cd Code/Java
+la
+rm -rf A.*
+la
+javac Homework1.java
+clear
+z java
+vi Test.java
+javac Test.java
+vi Test.java
+javac Test.java
+java Test
+vi Test.java
+javac Test.java
+java Test
+vi Test.java
+vi Test.java
+rm -rf Test.*
+la
+clear
+sudo pacman -S intellij-idea-community-edition
+archlinux-java status
+clear
+yay -Syu
+uname -a
+z sdl
+la
+sudo pacman -Syu
+clear
+z sdl
+vi 04_key_presses.cpp
+vi 04_key_presses.cpp
+vi 04_key_presses.cpp
+cl++ 04_key_presses.cpp -lSDL2
+./a.out
+vi 04_key_presses.cpp
+cl++ 04_key_presses.cpp -lSDL2
+./a.out
+vi 04_key_presses.cpp
+cl++ 04_key_presses.cpp -lSDL2
+./a.out
+vi 04_key_presses.cpp
+cl++ 04_key_presses.cpp -lSDL2
+./a.out
+z
+z
+z sdl
+clear
+ls
+clear
+vi 04_key_presses.cpp
+vi 04_key_presses.cpp
+la
+vi 04_key_presses.cpp
+cl++ 04_key_presses.cpp -lSDL2
+./a.out
+vi 05_optimized_surface_loading_and_soft_stretching.cpp
+cp 04_key_presses.cpp 05_optimized_surface_loading_and_soft_stretching.cpp
+vi 05_optimized_surface_loading_and_soft_stretching.cpp
+vi 05_optimized_surface_loading_and_soft_stretching.cpp
+rm -rf 05_optimized_surface_loading_and_soft_stretching.cpp
+vi 05_optimized_surface_loading_and_soft_stretching.cpp
+reboot
+cd Downloads/05_optimized_surface_loading_and_soft_stretching
+la
+cl++ 05_optimized_surface_loading_and_soft_stretching.cpp -lSDL2
+./a.out
+./a.out
+vi 05_optimized_surface_loading_and_soft_stretching.cpp
+cl++ 05_optimized_surface_loading_and_soft_stretching.cpp -lSDL2
+./a.out
+z sdl
+vi 05_optimized_surface_loading_and_soft_stretching.cpp
+cl++ 05_optimized_surface_loading_and_soft_stretching.cpp -lSDL2
+./a.out
+la
+vi 05_optimized_surface_loading_and_soft_stretching.cpp
+cl++ 05_optimized_surface_loading_and_soft_stretching.cpp -lSDL2
+./a.out
+vi 05_optimized_surface_loading_and_soft_stretching.cpp
+cl++ 05_optimized_surface_loading_and_soft_stretching.cpp -lSDL2
+./a.out
+vi 05_optimized_surface_loading_and_soft_stretching.cpp
+cl++ 05_optimized_surface_loading_and_soft_stretching.cpp -lSDL2
+./a.out
+vi 05_optimized_surface_loading_and_soft_stretching.cpp
+cl++ 05_optimized_surface_loading_and_soft_stretching.cpp -lSDL2
+./a.out
+vi 05_optimized_surface_loading_and_soft_stretching.cpp
+vi 05_optimized_surface_loading_and_soft_stretching.cpp
+la
+la
+yay -Syu
+clear
+z java
+vi Homework2.java
+vi Test.java
+vi Test.java
+vi Homework1.java
+vi Homework1.java
+vi Test.java
+vi Homework1.java
+vi Homework1.java
+sudo pacman -S intellij-idea-community-edition
+yay -Syu
+clear
+sudo pacman -S intellij-idea-community-edition
+sudo pacman -Rns intellij-idea-community-edition
+clear
+gedit OrderFoodSys.java
+vi fuck.java
+mv fuck.java OrderFoodSys.java
+la
+clear
+vi OrderFoodSys.java
+javac OrderFoodSys.java
+java OrderFoodSys
+clear
+vi test.java
+vi fuck.java
+xsel -b < fuck.java
+vi fuck.java
+vi fuck.java
+vi ~/.config/nvim/rc.d/03-plugins-settings.vim
+vi ~/.config/nvim/rc.d/02-plugins.vim
+vi ~/.config/nvim/rc.d/02-plugins.vim
+z java
+vi Homework1.
+vi Homework1.java
+vi fuck.java
+cd ~/Downloads/Telegram\ Desktop
+la
+javac Lib.java
+sudo pacman -S intellij-idea-community-edition
+sudo pacman -Rns intellij-idea-community-edition
+la
+rm -rf .java
+la
+rm -rf .android
+la
+shutdown now
+yay -Syu
+shutdown now
+shutdown now
+sudo pacman -S maven
+yay -Syu
+nvim
+cd Code/Java
+la
+mv ~/Downloads/Telegram\ Desktop/Lib.java .
+la
+vi Lib.java
+la
+javac Lib.java
+java Lib
+vi Lib.java
+javac Lib.java
+java Lib
+vi Lib.java
+javac Lib.java
+java Lib
+vi Lib.java
+javac Lib.java
+java Lib
+java Lib
+vi Lib.java
+la
+rm -rf Lib
+la
+clear
+la
+clear
+yay -Syu
+clear
+yay -Syu
+reboot
+yay -Syu
+yay -Sc
+clear
+sudo pacman -S intellij-idea-community-edition
+clear
+yay -Scc
+sudo pacman -S intellij-idea-community-edition
+clear
+sudo pacman -Syu
+java -version
+clear
+mvn --help
+mvn -v
+sudo pacman -Rns maven
+z java
+vi Demo.java
+javac Demo.java
+java Demo
+reboot
+yay -Syu
+z java
+vi Homework1.java
+z java
+cd Voter
+vi Vote.java
+cd ..
+mv Voter Vote
+cd Vote
+vi Vote.java
+vi Test.java
+la
+cd ..
+la
+z /home/limbo/Code/Java
+vi Lib.java
+z /home/limbo/Code/Java
+cd Vote
+vi Vote.java
+javac Vote.java
+java Vote
+la
+javac Test.java
+vi Test.java
+vi Test.java
+javac Vote.java
+javac Test.java
+z /home/limbo/Code/Java
+vi Lib.java
+vi Lib.java
+vi Lib.java
+z /home/limbo/Code/Java
+vi Vote/Test.java
+z java
+vi Lib.java
+sudo pacman -S astyle
+cd
+vi .astylerc
+source .astylerc
+la
+sudo pacman -Fy
+z java
+vi Lib.java
+clear
+java -v
+java -version
+clear
+java -version
+clear
+la
+sudo pacman -S bat
+bat Lib.java
+vi ~/.config/zsh/.zshrc
+cat Demo.java
+bat Demo.java
+vi ~/.config/zsh/.zshrc
+sudo pacman -Rns bat
+clear
+yay -Scc
+clear
+clear
+la
+mkdir Voter
+cd Voter
+vi Voter.java
+mv Voter.java Vote.java
+vi Vote.java
+vi Vote.java
+vi Vote.java
+la
+vi Test.java
+la
+clear
+cd
+la
+z java
+cd Vote
+la
+vi Vote.java
+la
+vi Vote.java
+vi Vote.java
+vi Test.java
+cd ..
+la
+rm -rf vote
+rm -rf Vote
+mkdir Vote
+cd Vote
+vi Vote.java
+vi Test.java
+javac Vote.java
+vi Vote.java
+vi Vote.java
+vi Test.java
+vi .java
+vi Vote.java
+javac Vote.java
+vi Test.java
+javac Test.java
+java Test
+vi Test.java
+javac Test.java
+java Test
+vi Test.java
+javac Test.java
+java Test
+vi Test.java
+javac Test.java
+java Test
+vi Test.java
+vi Vote.java
+javac Vote.java
+java Vote
+vi Vote.java
+javac Vote.java
+java Vote
+vi Vote.java
+vi Vote.java
+mv Vote.java Test.java
+javac Test.java
+java Test
+clear
+la
+rm -rf Vote.class
+la
+cd ..
+mkdir Pet
+cd Pet
+la
+vi Test.java
+vi Test.java
+vi Test.java
+vi Test.java
+vi Test.java
+shutdown now
+z java
+cd Pet
+la
+vi Test.java
+javac Test.java
+vi Test.java
+javac Test.java
+java Test
+vi Test.java
+la
+clear
+javac Test.java
+java Test
+vi Test.java
+javac Test.java
+java Test
+vi Test.java
+clear
+vi Test.java
+javac Test.java
+java Test
+vi Test.java
+javac Test.java
+java Test
+vi Test.java
+vi Test.java
+mv Test.java Test_work2.java
+javac Test_work2.java
+java Test_work2
+cd ..
+cd Vote
+la
+mv Test.java Test_work1.java
+vi Test_work1.java
+javac Test_work1.java
+java Test_work1
+vi Test_work1.java
+javac Test_work1.java
+la
+rm -rf Test.class Vote.class
+la
+java Test_work1
+javac Test_work1.java
+la
+java Test_work1
+java Test_work1
+java Test_work1
+clear
+cd
+z /home/limbo/Code/Java
+la
+mkdir Product
+cd P
+cd Product
+la
+vi Product.java
+javac Product.java
+vi Product.java
+la
+vi Product.java Test.java
+mv Product.java Test.java
+vi Test.java
+javac Test.java
+vi Test.java
+vi Test.java
+javac Test.java
+java Test
+vi Test.java
+vi Test.java
+javac Test.java
+java Test
+vi Test.java
+javac Test.java
+java Test
+vi Test.java
+javac Test.java
+java Test
+mv Test.java Test_work3.java
+vi Test_work3.java
+rm -rf Test.class
+javac Test.java
+javac Test_work3.java
+la
+java Test_work3
+z java
+cd Vote
+clear
+javac Test_work1.java
+java Test_work1
+cd ../Pet
+clear
+javac Test_work2.java
+java Test_work2
+cd ../Product
+clear
+javac Test_work3.java
+java Test_work3
+yay -Syu
+shutdown now
+yay -Syu
+z java
+vi A.java
+javac A.java
+java A
+shutdown now
+yay -Syu
+la
+sudo pacman -Ss uncrustify
+cd Documents
+cd Blog
+la
+hexo n ""
+hexo n "çƒ©ƒ»éƒ¿è¿­ä»£æ³ƒµæ±‚å¹³æƒ¶¹æƒ€¹"
+hexo g
+hexo d
+hexo s
+hexo g
+hexo d
+hexo s
+git add .
+git commit -m "2021-06-30"
+git push origin master
+git branch
+git push origin master:source
+z blog
+la
+cd .deploy_git
+la
+cd ..
+vi db.json
+yay -Syu
+la
+clear
+la
+cd Code/
+cd Code/
+mkdir Algorithms_4th
+cd Algorithms_4th
+la
+reboot
+z /home/limbo/Code/Java
+la
+cp HelloWorld.java ../Algorithms_4th
+clear
+yay -Syu
+mv Downloads/algs4.jar Code/Java
+z java
+mv algs4.jar ../Algorithms_4th
+cd ../Algorithms_4th
+la
+javac -cp algs4.jar HelloWorld.java
+java HelloWorld
+la
+clea
+java HelloWorld -cp algs4.jar
+clear
+la
+clear
+rm -rf HelloWorld.*
+la
+clear
+la
+clear
+vi HelloWorld.java
+clear
+vi HelloWorld.java
+vi ~/.config/zsh/.zshrc
+vi ~/.xprofile
+source ~/.xprofile
+vi HelloWorld.java
+vi ~/.config/zsh/.zshrc
+vi HelloWorld.java
+reboot
+cd Code/Algorithms_4th
+vi HelloWorld.java
+sudo pacman -S maven
+mvn -v
+vi pom.xml
+vi HelloWorld.java
+la
+vi pom.xml
+vi hello.java
+vi HelloWorld.java
+vi ~/.xprofile
+sudo pacman -Rns maven
+clear
+la
+rm -rf pom.xml
+la
+z /home/limbo/Code/Algorithms_4th
+la
+z /home/limbo/Code/Algorithms_4th
+la
+vi src/HelloWorld.java
+vi ~/.xprofile
+source ~/.xprofile
+la
+la
+git clone https://github.com/kevin-wayne/algs4.git --single-branch
+la
+vi HelloWorld.java
+cd algs4
+la
+cd src/main/java/edu/princeton/cs/algs4
+la
+cd -
+la
+mv src ..
+la
+cd ..
+la
+mv lib/algs4.jar src
+rm -rf lib
+mv src lib
+la
+cd algs4
+cd ..
+vi HelloWorld.java
+vi ~/.xprofile
+la
+rm -rf algs4
+vi ~/.xprofile
+source ~/.xprofile
+vi HelloWorld.java
+vi HelloWorld.java
+la
+vi HelloWorld.java
+vi ~/.xprofile
+vi ~/.xprofile
+source ~/.xprofile
+vi HelloWorld.java
+vi HelloWorld.java
+cd Code/Algorithms_4th
+la
+vi HelloWorld.java
+vi HelloWorld.java
+vi ~/.xprofile
+source ~/.xprofile
+vi HelloWorld.java
+vi HelloWorld.java
+vi HelloWorld.java
+mv lib/Std* .
+mv lib/In.java .
+mv lib/Out.java .
+mv lib/Draw* .
+mv lib/Picture.java .
+mv lib/GrayscalePicture.java .
+mv lib/BinaryStd* .
+mv lib/BinaryIn.java .
+mv lib/BinaryOut.java .
+la
+vi HelloWorld.java
+vi HelloWorld.java
+vi HelloWorld.java
+vi HelloWorld.java
+vi HelloWorld.java
+vi HelloWorld.java
+la
+clear
+vi HelloWorld.java
+javac HelloWorld.java
+javac HelloWorld.java -cp lib/algs4.jar
+java HelloWorld
+clear
+vi ~/.xprofile
+source ~/.xprofile
+javac HelloWorld.java
+java HelloWorld
+clear
+cd
+vi ~/.xprofile
+source ~/.xprofile
+z /home/limbo/Code/Algorithms_4th
+la
+javac HelloWorld.java
+clear
+cd Documents/dotfiles/
+git add .
+git commit -m "2021-07-01"
+git push origin master
+cd ../Blog
+la
+cd
+shutdown now
+yay -Syu
+clear
+la
+rm -rf .gradle
+la
+reboot
+pacman -Si linux-firmware
+pacman -Si linux-headers
+vim /var/log/pacman.log
+clear
+nvidia-smi
+git --help
+z java
+vi Main.java
+javac Main.java
+rm -rf Main.java
+clear
+yay -Syu
+shutdown now
+yay -Syu
+yay -Syu
+la
+vi .viminfo
+rm -rf .viminfo
+la
+clear
+clear
+cd Code/Algorithms_4th
+la
+clear
+rm -rf HelloWorld.*
+la
+more algs4-data/16Kints.txt
+clear
+less algs4-data/16Kints.txt
+clear
+z /home/limbo/Code/Algorithms_4th
+la
+vi BinarySearch.java
+vi BinarySearch.java
+vi BinarySearch.java
+javac BinarySearch.java algs4-data/tinyW.txt < tinyT.txt
+javac BinarySearch.java algs4-data/tinyW.txt < algs4-data/tinyT.txt
+java BinarySearch.java algs4-data/tinyW.txt < algs4-data/tinyT.txt
+java edu.princeton.cs.algs4.
+la
+clear
+la
+javac BinarySearch.java
+javac BinarySearch.java -Xlint:deprecation
+la
+clear
+java BinarySearch algs4-data/tinyW.txt < algs4-data/tinyT.txt
+clear
+vi algs4-data/tinyW.txt
+clear
+vi algs4-data/tinyT.txt
+z java
+vi test.java
+vi test.java
+java test.java
+vi test.java
+java test.java
+java test.java
+vi test.java
+java test.java
+clear
+cd
+vi .xprofile
+vi .config/zsh/.zshrc
+source ~/.xprofile
+source ~/.xprofile
+clear
+source .config/zsh/.zshrc
+z /home/limbo/Code/Algorithms_4th
+la
+clear
+la
+javac+ BinarySearch.java
+java BinarySearch
+java BinarySearch algs4-data/tinyW.txt < algs4-data/tinyT.txt
+clear
+reboot
+z java
+la
+java HelloWorld
+z /home/limbo/Code/Algorithms_4th
+clear
+clear
+cd
+java Code.Java.HelloWorld
+java Code.Algorithms_4th.BinarySearch
+java Code.Java.A
+clear
+z java
+la
+rm -rf A.*
+clear
+la
+vi OrderFoodSys.java
+clear
+la
+rm -rf ./*
+clear
+la
+z /home/limbo/Code/Algorithms_4th
+la
+vi BinarySearch.java
+z
+cd
+cd .config
+la
+clear
+clear
+z /home/limbo/Code/Algorithms_4th
+vi BinarySearch.java
+clear
+cd
+reboot
+clear
+java BinarySearch algs4-data/tinyW.txt < algs4-data/tinyT.txt
+z /home/limbo/Code/Algorithms_4th
+la
+vi BinarySearch.java
+vi BinarySearch.java
+vi BinarySearch.java
+java BinarySearch ~/Documents/algs4-data/largeW.txt < ~/Documents/algs4-data/largeT.txt
+java BinarySearch ~/Documents/algs4-data/tinyW.txt < ~/Documents/algs4-data/tinyT.txt
+javac+ BinarySearch.java
+java BinarySearch ~/Documents/algs4-data/tinyW.txt < ~/Documents/algs4-data/tinyT.txt
+java BinarySearch
+java BinarySearch 2 3
+clear
+vi BinarySearch.java
+java BinarySearch
+javac+ BinarySearch.java
+java BinarySearch
+java BinarySearch ~/Documents/algs4-data/tinyW.txt < ~/Documents/algs4-data/tinyT.txt
+vi HelloWorld.java
+vi HelloWorld.java
+javac HelloWorld.java
+java HelloWorld
+clear
+javac BinarySearch.java
+javac BinarySearch.java -cp lib/algs4.jar
+java BinarySearch ~/Documents/algs4-data/tinyW.txt < ~/Documents/algs4-data/tinyT.txt
+sudo pacman -S jdk-openjdk
+java BinarySearch ~/Documents/algs4-data/tinyW.txt < ~/Documents/algs4-data/tinyT.txt
+cd
+z /home/limbo/Code/Algorithms_4th
+java BinarySearch ~/Documents/algs4-data/tinyW.txt < ~/Documents/algs4-data/tinyT.txt
+reboot
+clear
+z /home/limbo/Code/Algorithms_4th
+java BinarySearch ~/Documents/algs4-data/tinyW.txt < ~/Documents/algs4-data/tinyT.txt
+nvim
+nvim
+java BinarySearch ~/Documents/algs4-data/tinyW.txt < ~/Documents/algs4-data/tinyT.txt
+vi BinarySearch.java
+javac -classpath lib/algs4.jar BinarySearch.java
+java BinarySearch 2 3
+vi ~/.xprofile
+source ~/.xprofile
+java BinarySearch 2 3
+javac BinarySearch.java
+java BinarySearch 2 3
+java BinarySearch algs4-data/tinyW.txt < algs4-data/tinyT.txt
+clear
+java BinarySearch ~/Documents/algs4-data/tinyW.txt < ~/Documents/algs4-data/tinyT.txt
+clear
+vi .xprofile
+source ~/.xprofile
+vi .config/zsh/.zshrc
+clear
+source .config/zsh/.zshrc
+z /home/limbo/Code/Algorithms_4th
+la
+javac+ BinarySearch.java
+java BinarySearch ~/Documents/algs4-data/tinyW.txt < ~/Documents/algs4-data/tinyT.txt
+java+ BinarySearch ~/Documents/algs4-data/tinyW.txt < ~/Documents/algs4-data/tinyT.txt
+java BinarySearch ~/Documents/algs4-data/tinyW.txt < ~/Documents/algs4-data/tinyT.txt -cp lib/algs4.jar
+reboot
+vi .xprofile
+source .xprofile
+z /home/limbo/Code/Algorithms_4th
+java BinarySearch ~/Documents/algs4-data/tinyW.txt < ~/Documents/algs4-data/tinyT.txt -cp lib/algs4.jar
+java -cp lib/algs4.jar BinarySearch
+la
+javac+ BinarySearch.java
+java+ BinarySearch
+java -cp .:lib/algs4.jar BinarySearch
+javac -cp .:lib/algs4.jar BinarySearch.java
+java -cp .:lib/algs4.jar BinarySearch
+java -cp .:lib/algs4.jar BinarySearch ~/Documents/algs4-data/tinyW.txt < ~/Documents/algs4-data/tinyT.txt
+clear
+vi .config/zsh/.zshrc
+cd
+vi .config/zsh/.zshrc
+source .config/zsh/.zshrc
+clear
+vi .xprofile
+z /home/limbo/Code/Algorithms_4th
+la
+rm -rf HelloWorld.*
+clear
+z /home/limbo/Code/Algorithms_4th
+javac+ BinarySearch.java
+java+ BinarySearch
+java+ BinarySearch ~/Documents/algs4-data/tinyW.txt < ~/Documents/algs4-data/tinyT.txt
+clear
+clear
+cd
+z /home/limbo/Code/Algorithms_4th
+la
+yay -Syu
+z /home/limbo/Code/Algorithms_4th
+la
+vi Test.java
+vi Test.java
+javac Test.java
+java Test
+vi Test.java
+javac Test.java
+vi Test.java
+javac Test.java
+java Test
+vi Test.java
+javac Test.java
+java Test
+vi Test.java
+javac Test.java
+java Test
+la
+vi 1.1.3.java
+vi 1.1.3.java
+vi 1.1.3.java
+mv 1.1.3.java 1_1_3.java
+vi 1_1_3.java
+mv 1_1_3.java EX_1-1-3.java
+vi EX_1-1-3.java
+vi EX_1-1-3.java
+mv EX_1-1-3.java EX_1_1_3.java
+vi EX_1_1_3.java
+la
+rm -rf BinarySearch.class
+rm -rf Test.class
+la
+vi BinarySearch.java
+javac+ BinarySearch.java
+java+ BinarySearch ~/Documents/algs4-data/largeW.txt < ~/Documents/algs4-data/largeT.txt
+clear
+la
+rm -rf BinarySearch.class
+vi EX_1_1_3.java
+javac EX_1_1_3.java
+java EX_1_1_3
+java EX_1_1_3 0 0 0
+vi EX_1_1_3.java
+javac EX_1_1_3.java
+java EX_1_1_3 0 0 0
+java EX_1_1_3
+java EX_1_1_3 0 0 0
+vi EX_1_1_3.java
+javac EX_1_1_3.java
+java EX_1_1_3 0 0 0
+java EX_1_1_3 1 1 1
+vi EX_1_1_3.java
+javac EX_1_1_3.java
+java EX_1_1_3
+java EX_1_1_3 1 1 1
+java EX_1_1_3 1 2 3
+java EX_1_1_3 1 2 1
+clear
+la
+rm -rf *.class
+la
+vi Test.java
+vi EX_1_1_5.java
+vi EX_1_1_5.java
+cat EX_1_1_3.java
+vi EX_1_1_5.java
+javac EX_1_1_5.java
+java EX_1_1_5
+java EX_1_1_5 1
+java EX_1_1_5 0.3
+vi EX_1_1_5.java
+javac EX_1_1_5.java
+java EX_1_1_5 0.3
+java EX_1_1_5 1.2
+clear
+la
+vi EX_1_1_6.java
+javac EX_1_1_6.java
+javac+ EX_1_1_6.java
+vi EX_1_1_6.java
+javac+ EX_1_1_6.java
+java+ EX_1_1_6
+clear
+la
+vi EX_1_1_6.
+vi EX_1_1_6.java
+vi EX_1_1_6.java
+javac+ EX_1_1_6.java
+java+ EX_1_1_6
+clear
+rm -rf *.class
+la
+nvim -v
+clear
+la
+mkdir 1-Fundamentals
+mv BinarySearch.java 1-Fundamentals
+cd 1-Fundamentals
+la
+vi BinarySearch.java
+cd ..
+la
+mv EX* 1-Fundamentals
+la
+clear
+cp lib 1-Fundamentals
+cp lib 1-Fundamentals -r
+la
+vi 1-Fundamentals/BinarySearch.java
+clear
+la
+vi Test.java
+java+ Test.java
+vi Test.java
+java+ Test.java
+vi Test.java
+vi Test.java
+java+ Test.java
+la
+vi EX_1_1_9.java
+vi EX_1_1_9.java
+vi 1-Fundamentals/EX_1_1_6.java
+vi 1-Fundamentals/EX_1_1_5.java
+vi EX_1_1_9.java
+java+ EX_1_1_9.java
+java+ EX_1_1_9.java 12
+clear
+la
+javac+ EX_1_1_9.java
+java+ EX_1_1_9
+java+ EX_1_1_9 9
+vi EX_1_1_9.java
+java+ EX_1_1_9.java 12
+clear
+la
+rm -rf *.class
+la
+vi EX_1_1_11.java
+vi EX_1_1_11.java
+javac+ EX_1_1_11.java
+java+ EX_1_1_11
+vi EX_1_1_11.java
+javac+ EX_1_1_11.java
+java+ EX_1_1_11
+vi EX_1_1_11.java
+javac+ EX_1_1_11.java
+java+ EX_1_1_11
+vi EX_1_1_11.java
+javac+ EX_1_1_11.java
+java+ EX_1_1_11
+vi EX_1_1_11.java
+javac+ EX_1_1_11.java
+java+ EX_1_1_11
+clear
+vi EX_1_1_11.java
+javac+ EX_1_1_11.java
+java+ EX_1_1_11
+vi EX_1_1_11.java
+javac+ EX_1_1_11.java
+java+ EX_1_1_11
+vi EX_1_1_11.java
+clear
+la
+z /home/limbo/Code/Algorithms_4th
+vi EX_1_1_13.java
+javac EX_1_1_13.java
+java EX_1_1_13
+vi EX_1_1_13.java
+javac EX_1_1_13.java
+java EX_1_1_13
+vi EX_1_1_13.java
+javac EX_1_1_13.java
+java EX_1_1_13
+vi EX_1_1_13.java
+javac EX_1_1_13.java
+java EX_1_1_13
+vi EX_1_1_13.java
+clear
+la
+rm -rf *.class
+la
+cd 1-Fundamentals
+vi BinarySearch.java
+z /home/limbo/Code/Algorithms_4th
+la
+vi EX_1_1_13.java
+vi EX_1_1_13.java
+shutdown now
+z /home/limbo/Code/Algorithms_4th
+vi EX_1_1_14.java
+vi EX_1_1_14.java
+clear
+javac+ EX_1_1_14.java
+java+ EX_1_1_14
+java+ EX_1_1_14 6
+java+ EX_1_1_14 8
+vi EX_1_1_13.java
+vi EX_1_1_11.java
+vi EX_1_1_9.java
+vi EX_1_1_14.java
+clear
+javac+ EX_1_1_14.java
+java+ EX_1_1_14 9
+java+ EX_1_1_14 1 2
+clear
+java+ EX_1_1_14 -2
+clear
+vi EX_1_1_15.java
+vi EX_1_1_15.java
+vi EX_1_1_20.java
+vi EX_1_1_20.java
+java+ EX_1_1_20.java
+rm -rf *.class
+la
+clear
+la
+mkdir 2-Sorting
+la
+clear
+la
+cp -r lib 2-Sorting
+clear
+la
+clear
+la
+cp EX* 1-Fundamentals
+la
+rm -rf EX*
+la
+clear
+clear
+la
+yay -Syu
+shutdown now
+yay -Syu
+yay -Syu
+yay -Syu
+yay -Syu
+reboot
+yay -Syu
+reboot
+clear
+yay -Syu
+z java
+la
+vi Test.java
+vi Test.java
+javac Test.java
+java Test
+vi Test.java
+la
+mv Test.java Test_2.java
+vi Test_2.java
+javac Test_2.java
+java Test_2
+clear
+la
+rm -rf *.class
+javac Test_2.java
+la
+clear
+vi Test_1.java
+vi Test_1.java
+vi Test_1.java
+vi Test_1.java
+vi Test_1.java
+javac Test_1.java
+java Test_1
+vi Test_1.java
+java Test_1
+vi Test_1.java
+vi Test_1.java
+javac Test_1.java
+java Test_1
+vi
+javac Test_1.java
+java Test_1
+vi Test_1.java
+javac Test_1.java
+java Test_1
+vi Test_1.java
+javac Test_1.java
+java Test_1
+vi Test_1.java
+vi Test_1.java
+javac Test_1.java
+java Test_1
+clear
+vi Test_3.java
+vi Test_3.java
+yay -Syu
+clear
+z java
+vi Test_3.java
+vi Test_1.java
+vi Test_2.java
+reboot
+la
+z java
+vi Test_3.java
+reboot
+cd .config/nvim/
+la
+cd rc.d
+la
+nvim
+z java
+vi Test_1.java
+nvim
+nvim
+z java
+vi Test_1.java
+nvim
+z java
+javac Test_3.java
+java Test_3
+javac Test_3.java
+java Test_3
+javac Test_3.java
+java Test_3
+javac Test_3.java
+java Test_3
+javac Test_3.java
+java Test_3
+javac Test_3.java
+java Test_3
+javac Test_3.java
+java Test_3
+clear
+la
+clear
+javac Test_1.java
+java Test_1
+clear
+javac Test_2.java
+java Test_2
+clear
+javac Test_3.java
+java Test_3
+vi .config/nvim/rc.d/02-plugins.vim
+vi .config/nvim/rc.d/02-plugins.vim
+vi /usr/include/c++/11.1.0/algorithm
+vi /usr/include/c++/11.1.0/complex.h
+vi /usr/include/c++/11.1.0/vector
+nvim
+vi .config/nvim/rc.d/03-plugins-settings.vim
+source .config/nvim/init.vim
+z java
+vi Test_1.java
+yay -Syu
+yay -Syu
+df
+reboot
+shutdown now
+shutdown now
+yay -Syu
+reboot
+htop
+sudo pacman -S htop
+htop
+clear
+yay -Syu
+z java
+la
+sudo pacman -S unrar
+z java
+cd car_rent
+la
+cd Model
+vi Bus.java
+vi Bus.java
+vi Bus.java
+vi Bus.java
+vi Car.java
+vi MotoVehicle.java
+cd ..
+vi Service/MotoOperation.java
+la
+cd ..
+cd car_rent
+mkdir bin
+mkdir src
+la
+mv Model/* src
+cd Model
+la
+cd ..
+rm -rf Model
+la
+mv Service/* src
+rm -rf Service
+la
+cd src
+la
+vi Bus.java
+la
+clear
+la
+mkdir Service
+mkdir Model
+mv *.java Model
+mv Model/RentMgrSys.java Service
+la
+vi Model/Bus.java
+vi Service/RentMgrSys.java
+clear
+vi Model/Car.java
+vi Model/MotoOperation.java
+vi Model/MotoVehicle.java
+mv Model/MotoOperation.java Service
+vi Service/MotoOperation.java
+vi Service/RentMgrSys.java
+cd Code/
+git clone https://github.com/Anhelor/Co-work
+la
+cd Co-work
+la
+vi src/Permission/Captain/Captain.java
+clear
+yay -Syu
+shutdown now
+yay -Syu
+vi .config/alacritty/alacritty.yml
+clear
+vi .config/alacritty/alacritty.yml
+vi .config/nvim/rc.d/02-plugins.vim
+vi .config/nvim/rc.d/03-plugins-settings.vim
+vi .config/nvim/rc.d/03-plugins-settings.vim
+vi .config/alacritty/alacritty.yml
+clear
+la
+clear
+la
+vi .config/alacritty/alacritty.yml
+clear
+la
+la
+clear
+vi
+la
+clear
+z java
+la
+clear
+z
+cd
+vi .config/alacritty/alacritty.yml
+clear
+vi .config/alacritty/alacritty.yml
+la
+vi .config/alacritty/alacritty.yml
+clear
+la
+clear
+yay -Syu
+la
+nvim
+ls
+vi .config/nvim/rc.d/01-general.vim
+la
+df
+tree
+clear
+z java
+vi Test_1.java
+vi Test_1.java
+la
+vi Main.java
+vi Main.java
+javac Main.java
+java Main
+la
+rm -rf *.class
+la
+clear
+vi Main.java
+vi Th.java
+vi Th.java
+javac Th.java
+vi Th.java
+javac Th.java
+java Th
+vi Th.java
+vi Th.java
+javac Th.java
+java Th
+vi Th.java
+javac Th.java
+java Th
+vi Th.java
+vi Th.java
+javac Th.java
+java Th
+vi Th.java
+javac Th.java
+java Th
+clear
+vi Th.java
+javac Th.java
+java Th
+clear
+vi Th.java
+cd ../Co-work
+git pull
+la
+tree
+cd src
+tree
+clear
+tree
+z /home/limbo/Code/Algorithms_4th
+la
+mkdir src
+la
+vi Test.java
+cp 1-Fundamentals/BinarySearch.java src
+cd src
+la
+vi BinarySearch.java
+vi BinarySearch.java
+cd ..
+tree
+rm -rf src
+la
+cd 1-Fundamentals
+la
+cd
+clear
+la
+mv .astylerc Code
+cd Code
+la
+cd Java
+la
+rm -rf *.class
+la
+vi Test_1.java
+clear
+la
+cd
+la
+shutdown now
+yay -Syu
+reboot
+z co
+cd ../Co-work
+git pull
+git log
+vi ~/.config/nvim/rc.d/01-general.vim
+z java
+la
+clear
+vi ~/.cache/zsh/history
+vi ~/.cache/zsh/history
+vi ~/.cache/zsh/history
+vi ~/.cache/zsh/history
+vi ~/.cache/zsh/history
+vi ~/.cache/zsh/history
+vi ~/.cache/zsh/history
+vi ~/.cache/zsh/history
+clear
+htop
+cd Downloads
+cd 05_optimized_surface_loading_and_soft_stretching
+la
+cd ../22000.51_amd64_zh-cn_multi_e012464d_convert
+la
+./uup_download_linux.sh
+./uup_download_linux.sh
+sudo pacman -S aria2
+./uup_download_linux.sh
+cd
+clear
+la
+la
+clear
+z java
+la
+clear
+neofetch
+la
+clear
+reboot
+z java
+la
+mkdir hw_07
+cd hw_07
+la
+mv ~/Downloads/Telegram\ Desktop/7æƒ¼ƒ¨7æƒ·¥ä½ƒ¼ä¸ƒº.txt
+mv ~/Downloads/Telegram\ Desktop/7æƒ¼ƒ¨7æƒ·¥ä½ƒ¼ä¸ƒº.txt .
+mv ~/Downloads/Telegram\ Desktop/readme.txt .
+la
+display 7æƒ¼ƒ¨7æƒ·¥ä½ƒ¼ä¸ƒº.txt
+la
+vi Test_1.java
+clear
+vi Test_1.java
+javac Test_1.java
+la
+java Test_1
+la
+vi readme2.txt
+java Test_1
+vi Test_1.java
+javac Test_1.java
+java Test_1
+vi readme2.txt
+vi Test_1.java
+vi Test_1.java
+javac Test_1.java
+java Test_1
+la
+rm -rf readme2.txt
+java Test_1
+vi readme2.txt
+vi Test.java
+vi Test.java
+javac Test.java
+java Test
+cp readme.txt a.txt
+java Test
+vi Test.java
+javac Test.java
+java Test
+vi readme2.txt
+la
+vi Test.java
+javac Test.java
+java Test
+vi readme2.txt
+clear
+vi Test.java
+javac Test.java
+java Test
+vi readme2.txt
+clear
+la
+rm -rf Test_1*
+la
+rm -rf C*
+la
+rm -rf a.txt
+la
+vi Test_2.java
+vi Test_2.java
+vi Test_2.java
+mv Test_2.java ProducerConsumerTest.java
+clear
+javac ProducerConsumerTest.java
+java ProducerConsumerTest
+vi ProducerConsumerTest.java
+javac ProducerConsumerTest.java
+java ProducerConsumerTest
+vi ProducerConsumerTest.java
+vi ProducerConsumerTest.java
+javac ProducerConsumerTest.java
+java ProducerConsumerTest
+vi ProducerConsumerTest.java
+javac ProducerConsumerTest.java
+java ProducerConsumerTest
+vi ProducerConsumerTest.java
+javac ProducerConsumerTest.java
+java ProducerConsumerTest
+vi ProducerConsumerTest.java
+javac ProducerConsumerTest.java
+javac ProducerConsumerTest.java
+java ProducerConsumerTest.java
+vi ProducerConsumerTest.java
+vi ProducerConsumerTest.java
+la
+clear
+la
+vi ProducerConsumerTest.java
+vi ProducerConsumerTest.java
+javac ProducerConsumerTest.java
+java ProducerConsumerTest.java
+java Test
+vi readme2.txt
+vi Test.java
+vi Test.java
+javac Test.java
+java Test
+vi readme2.txt
+vi Test.java
+vi readme2.txt
+vi ProducerConsumerTest.java
+clear
+java Test
+vi readme2.txt
+vi Test.java
+java ProducerConsumerTest
+z java
+cd hw_07
+vi Test.java
+clear
+sudo pacman -Rns aria2
+shutdown now
+la
+yay -Syu
+yay -Syu
+la
+clear
+nvim
+nvim
+nvim
+nvim
+clear
+shutdown now
+yay -Syu
+clear
+reboot
+sudo pacman -S mariadb
+mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+sudo mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+mysql
+mysql_secure_installation
+systemctl start mysqld
+sudo mysql
+systemctl stop mysqld
+sudo vim /etc/my.cnf.d/mysql-clients.cnf
+sudo vim /etc/mysql/my.cnf
+sudo vim /etc/mysql/my.cnf
+systemctl start mysqld
+sudo vim /etc/mysql/my.cnf
+sudo mkdir /etc/mysql
+sudo vim /etc/mysql/my.cnf
+mkdir -pv /var/lib/mysqltmp
+sudo mkdir -pv /var/lib/mysqltmp
+sudo chown mysql:mysql /var/lib/mysqltmp
+sudo tmpfs /var/lib/mysqltmp tmpfs rw,gid=mysql,uid=mysql,size=100M,mode=0750,noatime 0 0
+sudo pacman -S tmpfs
+sudo pacman -Ss tmpfs
+sudo tmpfs   /var/lib/mysqltmp   tmpfs   rw,gid=mysql,uid=mysql,size=100M,mode=0750,noatime   0 0
+id mysql
+sudo tmpfs   /var/lib/mysqltmp   tmpfs   rw,gid=mysql,uid=mysql,size=100M,mode=0750,noatime   0 0
+sudo vim /etc/fstab
+id mysql
+sudo vim /etc/fstab
+sudo vim /etc/mysql/my.cnf
+sudo vim /etc/mysql/my.cnf
+sudo vim /etc/mysql/my.cnf
+systemctl start mysqld
+su
+sudo mysql -p -u root
+vi .cache/zsh/history
+vi .cache/zsh/history
+z aur
+cd ..
+la
+git clone https://aur.archlinux.org/mariadb-jdbc.git
+cd mariadb-jdbc
+la
+vi PKGBUILD
+systemctl stop mysqld
+sudo pacman -S maven
+cd ..
+la
+rm -rf mariadb-jdbc
+cd
+la
+mvn -v
+la
+z java
+la
+mkdir maven-test
+cd maven-test
+mvn --help
+mvn clean package
+la
+clear
+mkdir src/main/java -p
+la
+tree
+mkdir src/main/resources -p
+la
+tree
+mkdir -p src/test/java
+mkdir -p target
+tree
+vi pom.xml
+mvn clean package
+la
+tree
+vi pom.xml
+mvn clean package
+tree
+rm -rf .project
+rm -rf .settings
+la
+tree
+vi pom.xml
+mvn clean package
+cd ..
+cd
+la
+rm -rf .m2
+la
+clear
+cd Code/Java/maven-test
+tree
+rm -rf .project
+la
+rm -rf .settings
+cd ..
+cd maven-test
+la
+tree
+vi src/main/java/hello.java
+vi src/main/java/hello.java
+vi src/main/java/hello.java
+tree
+vi pom.xml
+vi src/main/java/hello.java
+mvn clean package
+df
+tree
+mvn clean
+tree
+rm -rf .project .settings
+la
+tree
+	vi pom.xml
+cd Code/Java/maven-test
+vi pom.xml
+cd
+mv Code/.astylerc .
+cd Code/Java/maven-test
+vi pom.xml
+mv .astylerc Code/
+cd
+mv .astylerc Code/
+vi .astylerc
+la
+mv Code/.astylerc .
+vi .astylerc
+cd Code/Java/maven-test
+vi pom.xml
+mvn clean package
+java -jar target/hello_maven-1.0.jar
+clear
+la
+tree
+cd ..
+la
+la
+clear
+df
+shutdown now
+yay -Syu
+la
+ls
+clear
+la
+mv .astylerc Code/
+cd .m2
+la
+tree
+rm -rf .m2
+la
+cd
+rm -rf .m2
+la
+sudo pacman -S tidy
+cd Code/Java/maven-test
+la
+vi pom.xml
+tree
+mvn clean
+uname -a
+la
+tree
+cd
+la
+vi .config/nvim/rc.d/02-plugins.vim
+vi .config/nvim/rc.d/02-plugins.vim
+nvim
+clang-format --help
+vi .cache/zsh/history
+vi Code/.astylerc
+sudo pacman -S astyle
+echo "--style=java" > .astylerc
+la
+vi .astylerc
+rm -rf .astylerc
+la
+clear
+clear
+vi .cache/zsh/history
+vi .cache/zsh/history
+cd .config/zsh/plugins/
+la
+cd fast-syntax-highlighting
+git pull
+cd ../z.lua
+git pull
+cd ../zsh-autosuggestions
+git pull
+cd Documents/Blog
+hexo cl
+hexo g
+hexo d
+git add *
+git add .
+git status
+git commit -m "2021-07-08"
+git push origin master:source
+cd ../dotfiles
+la
+git add .
+git commit -m "2021-07-08"
+git push origin master
+cd ~/Downloads
+la
+git clone --single-branch --branch=source https://github.com/horel/horel.github.io.git
+la
+cd horel.github.io
+la
+yarn
+yarn
+yarn install
+yarn
+la
+hexo cl
+hexo g
+hexo s
+hexo d
+yarn
+la
+hexo cl
+la
+vi .gitignore
+vi package.json
+la
+yarn
+cd ..
+rm -rf horel.github.io
+git clone --single-branch --branch=source https://github.com/horel/horel.github.io.git
+cd horel.github.io
+la
+yarn
+cd ..
+rm -rf horel.github.io
+cd Documents/Blog
+la
+hexo cl
+la
+vi .deploy_git
+yarn
+la
+vi package.json
+la
+vi .yarnrc
+cd Downloads
+la
+git clone --single-branch --branch=source https://github.com/horel/horel.github.io.git
+cd horel.github.io
+proxychains yarn install
+cd ..
+rm -rf horel.github.io
+git clone --single-branch --branch=source https://github.com/horel/horel.github.io.git
+cd horel.github.io
+yarn
+yarn add deasync
+yarn
+cd Documents/Blog
+yarn
+cd Downloads
+rm -rf horel.github.io
+la
+la
+cd ~/Documents/Blog
+hexo g
+hexo d
+git add .
+git commit -m "2021-07-08"
+git push origin master:source
+cd ../dotfiles
+git add .
+git commit -m "2021-07-08"
+git push origin master
+sudo pacman -S wqy-microhei
+vi .m2/settings.xml
+rm -rf .m2/repository 
+clear
+vi .m2/settings.xml
+cd Documents/dotfiles
+git add .
+git commit -m "2021-07-08"
+git push origin master
+cd ../Blog
+hexo g
+hexo d
+git add .
+git commit -m "2021-07-08"
+git push origin master
+git push origin master:source
+shutdown now
+yay -Syu
+cd Downloads/aur
+la
+cd matcha-gtk-theme
+la
+reboot
+z aur
+la
+git clone https://aur.archlinux.org/pgformatter.git
+la
+git clone https://aur.archlinux.org/pgformatter-git.git
+cd pgformatter-git
+makepkg -si
+cd Code/DB
+la
+vi create_staff.sql
+vi create_staff.sql
+vi create_staff.sql
+vi create_staff.sql
+vi create_staff.sql
+vi create_staff.sql
+yay -Syu
+sudo mysql
+systemctl start mysqld
+sudo mysql
+cd Code
+la
+mkdir DB
+cd DB
+la
+clear
+la
+vi create.sql
+mv create.sql create_database.sql
+vi create_staff.sql
+vi create_staff.sql
+vi create_staff.sql
+vi create_staff.sql
+la
+sudo pacman -Ss pg-formatter
+yay -Ss pg-formatter
+yay -Ss pgformatter
+clear
+sudo pacman -Ss sqlfmt
+yay -Ss pgformatter
+z /home/limbo/Downloads/aur
+yay -Syu
+cd -
+la
+vi create_staff.sql
+vi create_staff.sql
+vi create_project.sql
+vi create_project.sql
+vi create_staff.sql
+vi create_project.sql
+la
+touch insert_staff.sql
+touch insert_project.sql
+vi create_staff.sql
+vi create_staff.sql
+vi create_staff.sql
+vi create_staff.sql
+vi create_project.sql
+vi create_staff.sql
+vi create_staff.sql
+vi create_trigger.sql
+vi create_trigger.sql
+mv create_trigger.sql create_trigger_EMPOLYEE.sql
+vi create_trigger_LEADER.sql
+cp create_trigger_EMPOLYEE.sql create_trigger_SUPERUSER.sql
+vi create_trigger_SUPERUSER.sql
+vi create_trigger_EMPOLYEE.sql
+la
+vi create_staff.sql
+cd Code/DB
+vi create_trigger_EMPOLYEE.sql
+sudo mysql
+clear
+cd Code/DB
+vi create_database.sql
+la
+vi create_staff.sql
+vi create_staff.sql
+vi create_staff.sql
+vi create_staff.sql
+vi create_staff.sql
+vi create_staff.sql
+vi create_staff.sql
+vi create_staff.sql
+vi create_staff.sql
+vi create_staff.sql
+vi create_staff.sql
+shutdown now
+yay -Syu
+z aur
+git clone https://aur.archlinux.org/matcha-gtk-theme.git
+cd matcha-gtk-theme
+la
+cd ..
+mv matcha-gtk-theme matcha
+git clone https://aur.archlinux.org/matcha-gtk-theme.git
+cd matcha-gtk-theme
+la
+makepkg -si
+reboot
+z aur
+rm -rf matcha
+la
+cd pgformatter
+la
+cd ..
+rm -rf pgformatter
+la
+sudo mysql
+systemctl start mysqld
+sudo mysql
+sudo mysql
+sudo mysql
+sudo mysql
+sudo mysql
+cd Code/DB
+la
+vi create_project.sql
+vi create_staff.sql
+vi create_trigger_EMPOLYEE.sql
+vi create_trigger_LEADER.sql
+vi create_trigger_SUPERUSER.sql
+vi create_trigger_EMPOLYEE.sql
+clear
+vi create_staff.sql
+vi create_staff.sql
+vi create_staff.sql
+vi create_staff.sql
+vi create_staff.sql
+vi create_staff.sql
+vi create_staff.sql
+vi create_staff.sql
+vi create_staff.sql
+vi create_staff.sql
+cp create_staff.sql create.sql
+vi create.sql
+vi create.sql
+vi create_project.sql
+vi create_project.sql
+vi create_project.sql
+vi create_staff.sql
+vi create_project.sql
+vi create_project.sql
+vi create_project.sql
+vi create.sql
+vi create.sql
+vi create.sql
+vi create.sql
+vi create.sql
+la
+vi create_trigger_EMPOLYEE.sql
+vi create_trigger_EMPOLYEE.sql
+vi create_trigger_EMPOLYEE.sql
+vi create_trigger_EMPOLYEE.sql
+vi create_trigger_EMPOLYEE.sql
+vi create_trigger_EMPOLYEE.sql
+vi create_trigger_EMPOLYEE.sql
+vi create_trigger_EMPOLYEE.sql
+vi create_trigger_EMPOLYEE.sql
+vi create_trigger_EMPOLYEE.sql
+vi create_trigger_EMPOLYEE.sql
+vi create_trigger_LEADER.sql
+vi create_trigger_SUPERUSER.sql
+vi create_trigger_LEADER.sql
+vi create_trigger_SUPERUSER.sql
+vi create_trigger_SUPERUSER.sql
+vi create_trigger_LEADER.sql
+vi create_trigger_EMPOLYEE.sql
+vi create_trigger_LEADER.sql
+vi create_trigger_LEADER.sql
+vi create_trigger_EMPOLYEE.sql
+vi create.sql
+vi create_staff.sql
+vi create_staff.sql
+cd Code/DB
+vi create_project.sql
+vi create_project.sql
+ls
+la
+yay -Syu
+shutdown now
+cd Code/DB
+vi create_trigger_EMPOLYEE.sql
+vi create_trigger_EMPOLYEE.sql
+vi create_trigger_EMPOLYEE.sql
+vi create_staff.sql
+vi create_project.sql
+vi create_staff.sql
+vi create_staff.sql
+vi create.sql
+vi create_project.sql
+vi create.sql
+cd Code/DB
+la
+vi create_staff.sql
+vi create_project.sql
+vi create_trigger_EMPOLYEE.sql
+vi create_trigger_LEADER.sql
+vi create_trigger_SUPERUSER.sql
+clear
+vi create_staff.sql
+vi create_project.sql
+systemctl start mysqld
+sudo mysql
+sudo mysql
+sudo mysql
+sudo mysql
+sudo mysql
+sudo mysql
+sudo mysql
+sudo mysql
+yay -Syu
+yay -Syu
+systemctl start mysqld
+sudo mysql
+cd Code/DB
+sudo mysql
+sudo mysql
+sudo mysql
+sudo mysql
+sudo mysql
+sudo mysql
+sudo mysql
+sudo mysql
+vi trigger.sql
+sudo mysql
+sudo mysql
+sudo mysql
+sudo mysql -u root -p
+sudo mysql -u root -p
+yay -Syu
+cd Code/Co-work
+git pull
+git status
+git log
+clear
+yay -Syu
+tree
+shutdown now
+yay -Syu
+clang -v
+gcc -v
+llvm -v
+yay -Syu
+z java
+vi Test_2.java
+vi Test_1.java
+vi Test_3.java
+z java
+vi Test.java
+la
+javac Test.java
+mv Test.java E.java
+javac E.java
+java E
+vi E.java
+vi E.java
+vi E.java
+rm -rf maven-test
+la
+vi E.java
+javac E.java
+java E
+vi Test.java
+javac Test.java
+vi Test.java
+javac Test.java
+java Test
+vi Person.java
+javac Person.java
+vi Person.java
+javac Person.java
+java Person
+vi Person.java
+mv Person.java Exmaple.java
+javac Exmaple.java
+java Example
+vi Person.java
+vi
+vi A.java
+vi A.java
+vi A.java
+javac A.java
+java A
+vi Test.java
+javac Test.java
+java Test
+vi A.java
+javac A.java
+java A
+yay -Syu
+yay -Syu
+cd Code/Co-work
+git pull
+git log
+clear
+sudo mysql -u root -p
+systemctl start mysqld
+systemctl start mysqld
+sudo mysql -u root -p
+sudo mysql -u root -p
+la
+cd Code/Co-work
+git pull
+mysql -u root -p
+systemctl start mysqld
+mysql -u root -p
+mysql -u mysql -p
+mysql
+mysql -u mysql -p
+mysql -u mysql -p
+select user();\
+
+mysql
+mysql -u limbo -p
+clear
+cd Code/Co-work
+git pull
+tree
+la
+cd src
+la
+cd main
+cd java/
+la
+tree
+la
+vi Main.java
+yay -Syu
+sudo pacman -Syu
+cd Downloads
+la
+git clone https://github.com/atraczyk/2d-engine.git
+cd 2d-engine
+la
+make -j -i13
+make -j -l13
+make -j -l 13
+la
+cmake
+cmake .
+cmake CMakeLists.txt
+mkdir build
+cd build
+cmake ..
+clear
+cd ./..
+cd 
+cd Downloads
+la
+rm -rf 2d-engine
+rm -rf win11_insider
+la
+cd
+la
+clear
+cd Code/Co-work
+la
+mvn clean package
+java -jar target/HeadHunterMS-1.0.jar
+java -jar target/original-HeadHunterMS-1.0.jar
+java -jar target/HeadHunterMS-1.0.jar
+vi src/main/java/Main.java
+vi src/main/java/Tools/JDBC.java
+vi src/main/java/Tools/JDBC.java
+java -jar target/HeadHunterMS-1.0.jar
+systemctl start mysqld
+sudo mysql -u root -p
+mysql -u root -p
+sudo mysql -u root -p
+mysql -u root -p
+mysql -u root -p
+sudo mysql -u root -p
+mysql -u jdbc -p
+sudo mysql -u root -p
+mysql -u jdbc -p
+mysql -u jdbc -p
+mysql -u jdbc -p
+mysql -u jdbc -p
+mysql -u jdbc -p
+clear
+mysql -u jdbc -p
+sudo mysql -u root -p
+cd car_rent
+cd Code/Co-work
+mvn clean
+la
+sudo mysql -u root -p
+mysql -u jdbc -p
+mysql -u mysql -p
+mysql
+mysql -u limbo -p
+mysql -u jdbc -p
+cd Code/Co-work
+mvn clean package
+java -jar target/HeadHunterMS-1.0.jar
+yay -Syu
+cd Code/Co-work
+la
+cd src/main/java/
+tree
+yay -Syu
+reboot
+yay -Syu
+yay -Syu
+reboot
+cd Code/Co-work
+la
+git pull
+git pull
+cd src/main/java/
+clear
+la
+vi Main.java
+la
+tree
+sudo pacman -Syu
+clear
+git pull
+z blog
+hexo g
+hexo s
+hexo d
+git add .
+git commit -m "2021-07-12"
+git push origin master:source
+git push origin master:source
+git status
+git add .
+git status
+git commit -m "2021-07-12"
+cd ../dotfiles
+git add .
+git commit -m "2021-07-12"
+git push origin master
+cd
+cd Code/Co-work/src/main/java/
+tree
+shutdown now
+yay -Syu
+yay -Syu
+rust -v
+rustc -v
+shutdown now
+reboot
+yay -Syu
+la
+ls
+clear
+ll
+ll
+tree
+clear
+sudo pacman -Syu
+sudo pacman -Syu
+systemctl start mysqld
+mysql -u jdbc -p
+mysql -u jdbc -p
+mysql -u jdbc -p
+mysql -u jdbc -p
+sudo pacman -S openjdk-doc
+cd /usr/share/doc/java-openjdk/resources
+cd
+vi .cache/zsh/.zlua
+sudo pacman -S rust
+sudo pacman -Ss rust
+sudo pacman -S cargo
+cd Code/Co-work/src/main/java/
+la
+git pull
+z co-work
+cd ../../..
+git pull
+la
+clear
+la
+clear
+z co-work
+cd
+z co-work
+cd -
+cd
+cd Code/Co-work
+cd
+z co-work
+z /home/limbo/Code/Co-work
+cd
+z co-work
+z Co-w
+z Co-work
+z /home/limbo/Code/Co-work
+clear
+git pull
+z /home/limbo/Code/Co-work
+java -jar target/HeadHunterMS-1.0.jar
+mvn clean package
+java -jar target/HeadHunterMS-1.0.jar
+java -jar target/HeadhunterMS-1.0.jar
+java -jar target/HeadhunterMS-1.0.jar
+java -jar target/HeadhunterMS-1.0.jar
+source /home/limbo/Code/DB/insert.sql 
+z /home/limbo/Code/Co-work
+git pull
+la
+clear
+la
+go -v
+go -veasion
+go --veasion
+go -veasion
+sudo pacman -S go
+go veasion
+go version
+go -version
+go --version
+go version
+clear
+go version
+cd ..
+la
+mkdir Rust
+cd Rust
+la
+sudo pacman -S rust
+vi hello.java
+vi hello.rs
+rustc -v
+rust -v
+rustc --version
+rustc hello.rs
+vi hello.rs
+rustc hello.rs
+la
+./hello
+vi hello.rs
+cargo build
+clear
+la
+rustc hello.rs -o a.out
+./a.out
+la
+rm -rf hello
+cd ../Co-work
+mvn clean package
+java -jar target/HeadhunterMS-1.0.jar
+systemctl start mysqld
+java -jar target/HeadhunterMS-1.0.jar
+git pull
+mvn clean package
+java -jar target/HeadhunterMS-1.0.jar
+git pull
+mvn clean
+mvn clean package
+java -jar target/HeadhunterMS-1.0.jar
+java -jar target/HeadhunterMS-1.0.jar
+mysql -u jdbc -p
+mysql -u jdbc -p
+mysql -u jdbc -p
+mysql -u root -p
+sudo mysql -u root -p
+mysql -u jdbc -p
+cd ../DB
+mysql -u jdbc -p
+cd ../Co-work
+java -jar target/HeadhunterMS-1.0.jar
+cd src/main/java
+vi Main.java
+vi menu/MainMenu.java
+vi menu/MainMenu.java
+vi menu/MainMenu.java
+z co-w
+z Co
+z Co-work
+cd ../Co-work
+clear
+la
+clear
+cd Code/Co-work
+java -jar target/HeadhunterMS-1.0.jar
+cd src/main/java/
+vi menu/MainMenu.java
+vi menu/EmployeeMenu.java
+z Co-work
+z /home/limbo/Code/Co-work
+mvn clean package
+java -jar target/HeadhunterMS-1.0.jar
+java -jar target/HeadhunterMS-1.0.jar
+mvn clean package
+java -jar target/HeadhunterMS-1.0.jar
+git pull
+cd ..
+rm -rf Co-work
+git clone https://github.com/Anhelor/Co-work.git
+cd Co-work
+la
+git log
+mvn clean package
+cd src/main/java/
+la
+vi menu/EmployeeMenu.java
+yay -Syu
+reboot
+yay -Syu
+systemctl start mysqld
+cd Code/Co-work/src/main/java/
+la
+git pull
+git pull
+vi menu/MainMenu.java
+vi menu/EmployeeMenu.java
+vi menu
+vi menu
+vi menu
+vi menu
+vi menu
+vi menu
+cd ../../..
+mvn clean package
+java -jar target/HeadhunterMS-1.0.jar
+cd src/main/java/
+vi menu/EmployeeMenu.java
+vi menu/EmployeeMenu.java
+cd ../../..
+mvn clean package
+java -jar target/HeadhunterMS-1.0.jar
+cd src/main/java/
+vi menu/EmployeeMenu.java
+vi menu/EmployeeMenu.java
+vi menu/LeaderMenu.java
+cd Code/Co-work/src/main/java/
+vi menu/LeaderMenu.java
+vi menu/SuperuserMenu.java
+cd ../../..
+mvn clean package
+java -jar target/HeadhunterMS-1.0.jar
+git push origin master
+git push origin master -u
+cd ~/Downloads
+git clone https://github.com/horel/Co-work.git
+cd Co-work
+git push origin master -u
+git add .
+ls
+git commit -m "add flush to every level menu"
+git push origin master -u
+cd src/main/java/
+vi menu/EmployeeMenu.java
+vi menu/EmployeeMenu.java
+vi menu/LeaderMenu.java
+vi menu/EmployeeMenu.java
+cd
+cd Downloads
+rm -rf Co-work
+cd
+cd Code/Co-work
+git pull
+git pull -f
+cd ..
+rm -rf Co-work
+git clone https://github.com/Anhelor/Co-work.git
+cd Co-work
+git pull
+cd ..
+rm -rf Co-work
+git clone https://github.com/horel/Co-work.git
+cd Co-work
+git pull
+git fetch origin
+git rebase orIG
+git remote add upstream https://github.com/Anhelor/Co-work.git
+git remote -v
+git fetch upstream
+la
+git rebase upstream/master
+la
+cd src/main/java/
+la
+cd ../../..
+la
+vi README.md
+cd src/main/java/
+vi Main.java
+z nvim
+vi init.vim
+vi rc.d/03-plugins-settings.vim
+vi
+vi
+vi 
+vi 
+cd
+cd Code/Co-work
+la
+cd src/main/java/
+vi Main.java
+la
+vi menu/MainMenu.java
+cd Code/Co-work/src/main/java/
+la
+vi menu/MainMenu.java
+la
+z Co-work
+z ../../..
+z /home/limbo/Code/Co-work
+la
+rm -rf README.md
+cd src/main/java/
+vi Main.java
+vi Main.java
+vi menu/MainMenu.java
+systemctl start mysqld
+mysql -u jdbc -p
+yay -Syu
+yay -Ss ue4
+yay -Ss unreal
+yay -Ss unreal-engine
+la
+vi .mysql_history
+rm -rf .mysql_history
+la
+la
+clear
+yay -Syu
+la
+ll
+clear
+ll
+l
+ll
+mysql -u jdbc -p
+cd Code
+la
+rm -rf .astylerc
+sudo pacman -Rns astyle
+nvim
+vi ~/.cache/zsh/history
+vi
+vi
+z nvim
+vi rc.d/02-plugins.vim
+z init
+z nvim
+vi init.vim
+vi rc.d/03-plugins-settings.vim
+vi
+vi 
+vi rc.d/03-plugins-settings.vim
+vi
+vi rc.d/03-plugins-settings.vim
+z nvim
+vi rc.d/03-plugins-settings.vim
+vi
+vi rc.d/03-plugins-settings.vim
+clear
+vi
+vi rc.d/03-plugins-settings.vim
+vi
+cd
+vi .xprofile
+vi .xprofile
