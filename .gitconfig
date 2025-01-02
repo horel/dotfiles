@@ -1,0 +1,14 @@
+[user]
+	email = cherrystray@gmail.com
+	name = Horel
+# Please install git-delta first
+[core]
+    pager = delta
+[interactive]
+    diffFilter = delta --color-only
+[delta]
+    navigate = true
+[merge]
+    conflictstyle = diff3
+[diff]
+    colorMoved = default
