@@ -1,0 +1,979 @@
+touch .cache/zsh/history
+mkdir .cache/zsh
+touch .cache/zsh/history
+sudo pacman -Syu
+sudo pacman -S fcitx5-im
+sudo pacman -S fcitx5-chinese-addons
+sudo pacman -S fcitx5-pinyin-moegirl
+vim /etc/environment 
+vim .config/environment.d/envvars.conf
+vim .config/environment.d/envvars.conf
+vim .config/environment.d/envvars.conf
+sudo pacman -S noto-fonts noto-fonts-extra noto-fonts-cjk noto-fonts-emoji ttf-sarasa-gothic ttf-nerd-fonts-symbols-mono ttf-opensans adobe-source-code-pro-fonts adobe-source-sans-pro-fonts adobe-source-serif-pro-fonts ttf-jetbrains-mono wqy-zenhei\
+
+sudo pacman -S noto-fonts noto-fonts-extra noto-fonts-cjk noto-fonts-emoji ttf-sarasa-gothic ttf-nerd-fonts-symbols-mono ttf-opensans adobe-source-code-pro-fonts adobe-source-sans-pro-fonts adobe-source-serif-pro-fonts ttf-jetbrains-mono wqy-zenhei\
+
+vim .config/fcitx5/profile
+vim .config/fcitx5/config
+vim .config/fcitx5/conf/keyboard.conf
+vim .config/fcitx5/conf/pinyin.conf
+vim .config/fcitx5/conf/classicui.conf
+vim .config/fcitx5/conf/classicui.conf
+vim .config/fcitx5/conf/classicui.conf
+ls -la
+sudo pacman -Rns fcitx5-gtk fcitx5-qt
+ls -la
+sudo vim /etc/environment
+pacman -Ss systemd-envir
+pacman -Ss systemd-environment-d-generator
+paru -Ss systemd-environment-d-generator
+ls /usr/lib/systemd/user-environment-generators
+cd /usr/lib/systemd/
+ls
+ls -la user-en
+ls -la user
+ls -la user*
+clear
+ls -la user*
+ls
+pwd
+cd
+vim .zprofile
+printenv
+printenv | grep fcitx
+vim .config/environment.d/envvars.conf
+ls /usr/lib/systemd/user-environment-generators
+ls /etc/systemd/user-environment-generators
+vim .config/environment.d/envvars.conf
+printenv
+ls -la
+ll
+l
+vim .zshrc
+rm -rf .zshrc
+vim .viminfo
+rm -rf .viminfo
+ls
+ls -la
+mv .gtkrc-2.0 .config
+ls .config/gtkrc-2.0
+mv .config/gtkrc-2.0 .config/.gtkrc-2.0
+vim .config/environment.d/envvars.conf
+vim .config/zsh/.zshrc
+vi
+rm .viminfo
+vi .config/environment.d/envvars.conf
+source .zprofile
+sudo pacman -Ss run-parts
+sudo pacman -S run-parts
+source .zprofile
+printenv
+printenv | grep fcitx
+printenv | grep fcitx
+printenv | grep fcitx
+reboot
+fc-cache
+ls -la
+vi .config/zsh/.zshrc
+vi .config/zsh/.zshrc
+vi .config/zsh/.zshrc
+vi
+vi .config/zsh/.zshrc
+vi .config/zsh/.zshrc
+vim .config/zsh/.zshrc
+vim .config/zsh/.zshrc
+paru -Ss vscode
+paru -S visual-studio-code-bin
+code .config/zsh/.zshrc
+paru -Ss icu69
+sudo pacman -S icu69
+cd .config/zsh/plugins
+ls
+rm -rf fast-syntax-highlighting
+git clone https://github.com/z-shell/F-Sy-H.git
+z
+z zsh
+cd .config/zsh
+cd
+z zsh
+cd
+cd .config/zsh/plugins
+ls
+cd z.lua
+ls
+code .
+cd ..
+rm -rf z.lua
+cd
+ls
+ll
+ll
+clear
+rm .viminfo
+ll
+z zsh
+cd
+vi .config/chrome-flags.conf
+vi .config/stylua/stylua.toml
+mkdir .config/stylua
+vi .config/stylua/stylua.toml
+cd .config/alacritty
+ls
+la
+ll
+rm alacritty.yml
+vi alacritty.toml
+mv alacritty.toml alacritty_old.toml
+vi alacritty.toml
+vi catppuccin-mocha.toml
+clear
+alacritty migrate
+ls
+cd .config/alacritty
+vi catppuccin-mocha.toml
+vi alacritty.toml
+cd -
+cd .config/alacritty
+vi alacritty_old.toml
+rm alacritty.toml
+rm catppuccin-mocha.toml
+mv alacritty_old.toml alacritty.toml
+ls
+clear
+clear
+ls
+ll
+vim .config/zsh/.zshrc
+ll
+la
+la
+rm .viminfo
+la
+vi
+la
+sudo pacman -Ss luarocks
+sudo pacman -S luarocks
+pacman -Ss ripgrep
+sudo pacman -S ripgrep
+sudo pacman -Ss clipboard
+sudo pacman -S xclip
+sudo pacman -S rustup
+rustup
+rustup show
+ll
+sudo pacman -S nodejs
+sudo pacman -Ss python
+sudo pacman -S python\
+
+python --version
+sudo pacman -S python-pip\
+
+pip --version
+vi
+vi
+ll
+cd .config/nvim
+la
+./clean_nvim.sh
+vi
+vi
+vi
+vi lua/plugins/treesitter.lua
+vi lua/plugins/treesitter.lua
+vi lua/plugins/treesitter.lua
+sudo pacman -S lua lua-language-server
+vi lua/plugins/treesitter.lua
+vi lua/plugins/treesitter.lua
+cd
+vi
+vi
+vi
+vi
+ls /usr/bin/python
+vi
+pip install neovim
+sudo pacman -Ss python-neovim\
+
+sudo pacman -S python-pynvim\
+
+vi
+ll
+rustup init
+rustup --help
+rustup update
+rustup +stable
+rustup + stable
+rustup stable
+rustup install stable
+rustup show
+cargo --version
+ll
+cargo --version\
+rustc --version\
+
+rustup update\
+
+clear
+clear
+sudo pacman -S htop
+htop
+htop
+clear
+code
+sudo pacman -S cmake
+sudo pacman -S xmake
+lsblk
+ll
+clear
+cd Downloads
+ls
+cd horel.github.io/content/posts/Windowsçƒ®¯åƒ‚ƒ£æƒ°­å»º/assets/
+ll
+cat code_extensions.txt |% { code --install-extension $_}\
+
+cat code_extensions.txt |% { code --install-extension\
+
+cat code_extensions.txt |% { code --install-extension $_}\
+
+cat code_extensions.txt | xargs -I {} code --install-extension {}\
+
+cat code_extensions.txt | xargs -I {} code --install-extension {}\
+
+shutdown now
+sudo pacman -Syu
+vi /usr/share/fontconfig/conf.avail/10-autohint.conf
+cd .config/fontconfig
+ls
+mkdir conf.d
+cd conf.d
+ln -s /usr/share/fontconfig/conf.avail/10-autohint.conf ~/.config/fontconfig/conf.d/10-autohint.conf\
+
+ls
+ln -s /usr/share/fontconfig/conf.avail/10-hinting-full.conf ~/.config/fontconfig/conf.d/10-hinting-full.conf\
+
+ln -s /usr/share/fontconfig/conf.avail/10-sub-pixel-rgb.conf ~/.config/fontconfig/conf.d/\
+ln -s /usr/share/fontconfig/conf.avail/11-lcdfilter-default.conf ~/.config/fontconfig/conf.d/\
+
+ls
+vi 50-generic.conf
+vi 52-language.conf
+mv 52-language.conf 51-language.conf
+ls
+cd ..
+ls
+mv fonts.conf fonts.conf_old
+sudo pacman -Ss noto-sans
+sudo pacman -S noto-fonts-cjk\
+
+fc-list | grep "Noto Serif CJK SC"\
+
+fc-list | grep "Noto Sans Mono CJK SC"\
+
+fc-list | grep "Noto Sans Mono CJK KR"\
+
+fc-list | grep "Noto Serif CJK KR"\
+
+fc-list | grep "Noto Sans CJK KR"\
+
+fc-list | grep "Noto Sans CJK SC"\
+
+fc-list | grep "Noto Sans Mono CJK JP"\
+
+fc-list | grep "sans-serif"
+fc-list | grep "system-ui"
+fc-list | grep "Noto Color Emoji"
+fc-list | grep "Symbols Nerd Font"
+fc-list | grep "JetBrains Mono NL"
+pacman -Qs JetBrains Mono NL
+pacman -Qs JetBrains
+fc-list | grep "Noto Serif"
+fc-list | grep "serif"
+fc-list | grep "Noto Sans CJK SC"
+fc-list | grep "Noto Sans"
+fc-list | grep "sans-serif"
+pacman -Ss sans-serif
+pacman -Ss system-ui
+reboot
+fc-cache -fv\
+
+fc-list | grep "Sans Serif"
+pacman -Ss sans
+pacman -Ss sans serif
+clear
+pacman -Ss sans serif
+sudo pacman -S ttf-fira-sans\
+
+fc-cache -fv\
+
+sudo pacman -Rns ttf-fira-sans
+fc-cache -fv\
+
+reboot
+reboot
+sudo pacman -Syu
+sudo pacman -Syu
+fc-cache -fv\
+
+cd .config/alacritty
+la
+vi alacritty.toml
+vi alacritty.toml
+sudo pacman -Syu
+cd .config/alacritty
+vi alacritty.toml
+clear
+sudo pacman -Syu
+paru -Syu
+vi .config/alacritty/alacritty.toml
+vi .config/alacritty/alacritty.toml
+clear
+clear
+paru -Syu
+vi .config/alacritty/alacritty.toml
+vi .config/alacritty/alacritty.toml
+clear
+ll
+paru -Syu
+reboot
+paru -Syu
+vi /etc/NetworkManager/conf.d/20-connectivity.conf
+vi /etc/NetworkManager/conf.d/20-connectivity.conf
+sudo vi /etc/NetworkManager/conf.d/20-connectivity.conf
+sudo vim /etc/NetworkManager/conf.d/20-connectivity.conf
+ls
+ll
+rm .gtkrc-2.0
+la
+paru -Syu
+vi
+vi
+vi test.c
+cd .config/nvim/
+la
+./clean_nvim.sh
+vi
+vi
+vi
+vi test.c
+vi /etc/NetworkManager/conf.d/20-connectivity.conf
+sudo vi /etc/NetworkManager/conf.d/20-connectivity.conf
+sudo nvim /etc/NetworkManager/conf.d/20-connectivity.conf
+sudo nvim /etc/NetworkManager/conf.d/20-connectivity.conf
+vi test.c
+vi test.c
+cd .config/nvim/
+ls
+la
+cd lua
+la
+cd plugins
+la
+cd ../..
+vi init.lua
+vi lua/general.lua
+vi clean_nvim.sh
+jobs
+fg
+jobs
+vi .local/share/nvim
+vi test.c
+sudo pacman -S words\
+
+vi test.c
+clear
+rm test.c
+ll
+vi .gtkrc-2.0
+grep -R .gtkrc-2.0 ~/\
+
+pacman -Ss lxappearance
+printenv | grep GTK\
+
+ll
+vi .config/environment.d/envvars.conf
+rm .config/.gtkrc-2.0
+rm .gtkrc-2.0
+la
+clear
+ll
+lsblk
+shutdown now
+paru -Syu
+reboot
+pacman -Ss steam
+reboot
+paru -Syu
+vi .config/chrome-flags.conf
+vi /etc/default/grub
+vi /etc/default/grub
+sudo vi /etc/default/grub
+sudo nvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+vi /etc/locale.conf
+reboot
+lspci -k -d ::03xx
+sudo nvim /etc/hostname
+sudo nvim /etc/hosts
+sudo nvim /etc/hosts
+hostname\
+
+hostnamectl\
+
+reboot
+ll
+rm .nvidia-settings-rc
+ll
+sudo nvim /etc/hosts
+reboot
+pacman -Ss hugo
+journalctl /opt/google/chrome/chrome
+google-chrome-stable
+ll
+cd .config
+vi google-chrome/
+la
+cd chromium
+la
+la Sin*
+rm Single*
+cd
+vim /etc/hostname
+vim /etc/hosts
+vim /etc/hostname
+sudo nvim /etc/hostname
+sudo nvim /etc/hosts
+cd -
+rm Single*
+reboot
+pacman -Ss hugo
+sudo pacman -Syu
+paru -Ss hugo
+sudo nvim /etc/pacman.conf
+cd Downloads
+git clone https://aur.archlinux.org/hugo.git
+cd hugo
+ll
+vi PKGBUILD
+vi PKGBUILD
+makepkg -si\
+
+ll
+sudo pacman -U hugo-0.120.4.tar.gz
+ll
+cd ..
+rm hugo
+rm -rf hugo
+wget https://archive.archlinux.org/packages/h/hugo/hugo-0.120.4-1-x86_64.pkg.tar.zst\
+
+ll
+rm -rf *
+ll
+ll
+rm -rf ./*
+ll
+cd Downloads
+ll
+rm -rf dotfiles-master.zip
+ll
+wget https://github.com/gohugoio/hugo/releases/download/v0.120.4/hugo_0.120.4_Linux-64bit.tar.gz\
+
+tar -xvf hugo_0.120.4_Linux-64bit.tar.gz\
+
+ll
+./hugo
+./hugo help
+ll
+cd ..
+ll
+rm .wget-hsts
+rm .viminfo
+ll
+cd Downloads
+ll
+mv hugo ~/Templates
+ll
+rm hugo_0.120.4_Linux-64bit.tar.gz
+rm LICENSE
+rm README.md
+cd
+./Templates/hugo
+./Templates/hugo --version
+./Templates/hugo version
+vi .config/environment.d/envvars.conf
+mv Templates/hugo .local/bin/
+mkdir .local/bin
+mv Templates/hugo .local/bin/
+source .zprofile
+hugo version
+vi .config/environment.d/envvars.conf
+ll
+rm .viminfo
+ll
+mkdir dev
+cd dev
+ll
+git clone https://github.com/horel/horel.github.io.git
+cd horel.github.io
+hugo 
+ll
+hugo 
+cd dev/horel.github.io
+ll
+cd dev/horel.github.io
+hugo 
+ll
+z dow
+tar -xvf hugo_extended_0.120.4_linux-amd64.tar.gz \
+
+mv hugo ~/.local/bin
+hugo version
+hugo version
+cd dev/horel.github.io
+hugo 
+ll
+hugo
+reboot
+z horel
+hugo server --disableFastRender
+hugo server --disableFastRender
+pacman -Ss edge
+reboot
+sudo grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=Arch --recheck
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo mkinitcpio -P
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+vi .config/zsh/.zshrc
+source .config/zsh/.zshrc
+ll
+clear
+paru -Syu
+vi .config/zsh/.zshrc
+source .config/zsh/.zshrc
+clear
+shutdown now
+reboot
+paru -Syu
+vi /etc/pacman.conf
+vi /etc/pacman.conf
+sudo nvim /etc/pacman.conf
+sudo nvim /etc/pacman.d/mirrorlist
+sudo nvim /etc/pacman.d/mirrorlist
+sudo nvim /etc/pacman.conf
+sudo pacman -Syu
+sudo nvim /etc/pacman.conf
+nvidia-smi\
+
+paru -Syu
+ll
+rm .viminfo
+ll
+vi .config/chrome-flags.conf
+vi .config/chrome-flags.conf
+vi .config/chrome-flags.conf
+echo $XDG_SESSION_TYPE\
+
+ps -e | grep -E 'wayland|Xorg'\
+
+htop
+htop
+ps -l
+ps -l
+ps
+clear
+clear
+vi .config/chrome-flags.conf
+shutdown now
+vi .config/chrome-flags.conf
+paru -Syu
+pacman -Ss chrome
+paru -Ss chrome
+clear
+paru -Ss chrome
+vi .config/chrome-flags.conf
+vi .config/chrome-flags.conf
+pacman -Ss telegram
+pacman -Ss vaapi
+sudo pacman -S nvidia-vaapi-driver-git
+vi .config/chrome-flags.conf
+reboot
+sudo pacman -Rns nvidia-vaapi-driver-git
+paru -Scc
+ll
+rustup show
+rustup update
+vi .config/chrome-flags.conf
+z horel
+git status
+hugo server --disableFastRender
+code .
+cd Downloads
+dd if=archlinux-2024.12.01-x86_64.iso of=/dev/sda bs=4M status=progress conv=fsync
+sudo dd if=archlinux-2024.12.01-x86_64.iso of=/dev/sda bs=4M status=progress conv=fsync
+lsblk
+pacman -Ss vaapi
+pacman -Ss amd-ucode
+pacman -Ss inter-ucode
+pacman -Ss intel-ucode
+paru -Ss qq
+paru -Ss wechat
+hugo server --disableFastRender
+clear
+sudo pacman -Syu
+lslbk
+lsblk
+lsblk
+paru -Syu
+sudo pacman -S telegram-desktop
+sudo pacman -S flameshot
+frameshot gui
+sudo pacman -S mpv
+paru -Ss linuxqq
+z horel
+ll
+hugo server --disableFastRender
+code .
+pacman -Ss chrome-gnome-shell
+pacman -Ss browser-gnome
+pacman -Ss browser-exten
+pacman -Ss extention
+pacman -Ss gnome-br
+vi /etc/pacman.conf
+pacman -Ss clash-verge
+pacman -Ss pnpm
+vi .zprofile
+ll
+clear
+pacman -Qs fcitx5
+pacman -Qs jetbrains
+pacman -Qs xsel
+pacman -Qs xclip
+pacman -Ss xsel
+pacman -Ss xclip
+sudo pacman -Rns xclip
+sudo pacman -S xsel
+pacman -Qs lua
+vi
+cd Downloads
+ll
+wget https://github.com/gohugoio/hugo/releases/download/v0.120.4/hugo_extended_0.120.4_linux-amd64.tar.gz
+ll
+rm hugo_extended_0.120.4_linux-amd64.tar.gz
+export https_proxy=http://127.0.0.1:7897 http_proxy=http://127.0.0.1:7897 all_proxy=socks5://127.0.0.1:7897
+wget https://github.com/gohugoio/hugo/releases/download/v0.120.4/hugo_extended_0.120.4_linux-amd64.tar.gz
+rm hugo_extended_0.120.4_linux-amd64.tar.gz
+ll
+ll
+ll .vscode
+vi 
+sudo pacman -S python
+pacman -Ss python
+hugo server --disableFastRender
+hugo
+hugo server --disableFastRender
+git status
+git add .
+git commit -m "update archlinux"
+git push origin master
+clear
+git add .
+git commit -m "update archlinux"
+git push origin master
+reboot
+reboot
+paru -Syu
+reboot
+paru -Syu
+reboot
+sudo nvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+paru -Syu
+reboot
+paru -Syu
+sudo mkinitcpio -P
+reboot
+paru -Syu
+reboot
+vim .config/chrome-flags.conf
+git status
+git fetch
+git status
+git pull
+exit
+ps -l
+ps -lA
+ps aux
+htop
+killall -15 alacritty
+                                ji
+\
+cat /sys/kernel/debug/vgaswitcheroo/switch
+sudo \
+cat /sys/kernel/debug/vgaswitcheroo/switch
+sudo cat /sys/kernel/debug/vgaswitcheroo/switch
+nvidia-smi\
+
+sudo prime-select intel\
+
+vim /etc/default/grub
+sudo vim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+vi .config/alacritty/alacritty.toml
+ll
+clear
+vi .config/alacritty/alacritty.toml
+vi .config/alacritty/alacritty.toml
+nvidia-smi\
+
+google-chrome-stable
+sudo vim /etc/default/grub
+google-chrome-stable
+reboot
+paru -Syu
+google-chrome-stable
+sudo vim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+paru -Syu
+vi .config/chrome-flags.conf
+ll
+rm .viminfo
+rm .nvidia-settings-rc
+ll
+vi .config/zsh/.zshrc
+vim
+clear
+ll
+clear
+ll
+cd dev
+ll
+clear
+telegram-desktop
+glxinfo | grep "OpenGL renderer"\
+
+echo $ZSH
+echo $ZDOTDIR
+sudo -E vi
+sudo echo $SHELL\
+
+sudo visudo
+clear
+sudo vi
+ll
+cd .config
+la
+cd zsh
+la
+clear
+exit
+vi
+exit
+sudo vi
+sudo visudo
+sudo nvim
+ll
+sudo -E nvim
+sudo -E vi
+vi .config/zsh/.zshrc
+which nvim\
+
+visudo
+su -
+su -E 
+sudo -E nvim aa
+sudo --help
+ll
+vi .zprofile
+su 
+su 
+clear
+sudo - horel vi
+sudo -u horel vi
+sudo -i horel vi
+sudo -i horel vi
+clear
+ll
+sudo -i -u horel vi
+sudo vi
+sudo -E vim
+sudo -E vi
+ll
+rm .viminfo
+ll
+rm .viminfo
+ll
+sudo cp .zprofile /root
+ll
+cd
+ll
+vi .zprofile
+exit
+ll
+cd
+ll
+rm .zprofile
+exit
+cd
+vi .zshrc
+exit
+ll
+cd
+ll
+vi .zshrc
+source .zshrc
+cd
+rm .zshrc
+sudo -E vi\
+
+vi .config/zsh/.zshrc
+cd
+vi .zshrc
+vi .zshrc
+sudo vi
+su
+sudo vi /root/.zprofile
+clear
+su
+su
+sudo vi
+su
+ll
+sudo vi
+su 
+vi .config/zsh/.zshrc
+vi .zprofile
+vi .zprofile
+echo $PATH
+sudo -E vi
+sudo -E nvim
+which nvim\
+
+vi .zprofile
+echo $PATH
+source .zprofile
+sudo -E nvim
+sudo -E vi
+vi .config/zsh/.zshrc
+echo $BASH_ALIASES
+echo $ZSH_ALIASES
+su
+vi .zprofile
+cd
+vi .zprofile
+vi .zshrc
+rm .zshrc
+which vi\
+
+sudo which vi\
+
+sudo ln -s /usr/bin/nvim /usr/bin/vi\
+
+sudo vi
+sudo -E vi
+vi
+sudo rm /usr/bin/vi
+sudo -E vi
+sudo -E nvim
+vi .config/zsh/.zshrc
+sudo vi
+vi /etc/profile
+sudo -E nvim /etc/profile
+sudo vi
+sudo -E nvim /etc/profile
+su
+vi .config/zsh/.zshrc
+svi
+svi .config/zsh/.zshrc
+svi /etc/default/grub
+vi .config/zsh/.zshrc
+vi .config/zsh/.zshrc
+vi .config/zsh/.zshrc
+ll
+vi .config/nvim/init.lua
+vi .config/zsh/.zshrc
+vi
+vi
+vi .config/environment.d/envvars.conf
+reboot
+paru -Syu
+vi .config/chrome-flags.conf
+vi .config/chrome-flags.conf
+vi .config/chrome-flags.conf
+vi .config/chrome-flags.conf
+locale -a
+google-chrome-stable --lang=zh-CN
+vi .config/chromium/Default/p
+vi .config/chromium/Default/Preferences
+clear
+svi /etc/default/grub
+vi .config/alacritty/alacritty.toml
+pacman -Ss termus
+shutdown now
+clear
+paru -Syu
+rustup update
+paru -Syu
+reboot
+vim .config/chrome-flags.conf
+reboot
+vim .config/chrome-flags.conf
+shutdown now
+paru -Syu
+paru -Syu
+paru -Syu
+clear
+paru -Syu
+sudo pacman -Syu
+ping mirrors.bfsu.edu.cn
+ping www.baidu.com
+paru -Syu
+paru -Syu
+reboot
+reboot
+paru -Syu
+ll
+rm .viminfo
+ll
+reboot
+paru -Syu
+paru -Syu
+paru -Syu
+ip a
+ping mirrors.bfsu.edu.cn
+ping https://mirrors.bfsu.edu.cn
+ping mirrors.bfsu.edu.cn
+ip a
+ip a
+reboot
+ip a
+reboot
+paru -Syu
+paru -Ss sunlogin
+paru -S sunloginclient
+paru -Scc
+paru -Scc -d
+paru -S sunloginclient
+paru -Scc sunloginclient
+paru -S sunloginclient
+grep -R sunlogin ~/\
+
+clear
+sudo pacman -Rns $(pacman -Qtdq)
+reboot
+sudo pacman -S git
+sudo pacman -Syu
+la
+git init --bare ~/.dotfiles
+alias dotfiles='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
+vi .config/zsh/.zshrc
+source .config/zsh/.zshrc
+dotfiles config status.showUntrackedFiles no
+la
+clear
+la
+vi .zprofile
+dotfiles status
