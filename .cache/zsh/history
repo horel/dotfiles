@@ -977,3 +977,527 @@ clear
 la
 vi .zprofile
 dotfiles status
+dotfiles add .zprofile
+dotfiles status
+vi .gitconfig
+vi .gitconfig
+pacman -Ss delta
+pacman -S git-delta
+sudo pacman -S git-delta
+vi .gitconfig
+vi .gitconfig
+vi .config/alacritty/alacritty.toml 
+dotfiles add .config/alacritty/alacritty.toml
+git add .
+git status
+dotfiles status
+vi .config/environment.d/envvars.conf
+source .zprofile
+vi .config/environment.d/envvars.conf
+vainfo\
+
+vi .config/environment.d/envvars.conf
+dotfiles add .config/environment.d/envvars.conf
+cd .config/fcitx
+la
+cd ../fcitx5
+la
+vi config
+vi profile
+cd conf
+la
+cd ..
+cd ..
+dotfiles add fcitx5
+dotfiles status
+cd fontconfig
+la
+vi fonts.conf_old
+rm fonts.conf_old
+cd conf.d
+la
+cd ..
+cd ..
+dotfiles add fontconfig
+dotfiles status
+la stylua
+dotfiles add stylua
+cd zsh
+la
+vi .zshrc
+dotfiles add .zshrc
+cd plugins
+la
+cd F-Sy-H
+la
+git status
+cd ..
+rm -rf F-Sy-H
+dotfiles submodule add https://github.com/z-shell/F-Sy-H.git .
+git status
+dotfiles status
+cd ..
+dotfiles submodule add https://github.com/z-shell/F-Sy-H.git ./plugins
+dotfiles submodule add https://github.com/z-shell/F-Sy-H.git ./plugins/F-Sy-H
+cd plugins
+la
+cd F-Sy-H
+git status
+cd ..
+rm -rf zsh-autosuggestions
+dotfiles submodule add https://github.com/zsh-users/zsh-autosuggestions.git zsh-autosuggestions\
+
+la
+cd
+la
+dotfiles status
+dotfiles submodule update
+dotfiles submodule status
+vi .config/chrome-flags.conf
+dotfiles add .config/chrome-flags.conf
+cd .config/nvim
+la
+cd ..
+dotfiles add nvim
+git status
+dotfiles status
+la
+cd Code
+la
+cd
+la
+vi .vscode/extensions
+rustup update
+cd .cache
+la
+la nvim
+la nvim/catppuccin
+la f-sy-h
+vi f-sy-h/secondary_theme.zsh
+vi zsh/history 
+dotfiles add zsh/history
+dotfiles remote add origin https://github.com/horel/dotfiles.git
+dotfiles commit -m "init dorfiles repoâ€ƒ¸
+dotfiles commit -m "init dorfiles repo"
+dotfiles push origin master -u
+dotfiles push origin master -u
+cd
+vi Documents/horel_token.txt
+xsel Documents/horel_token.txt
+xsel < Documents/horel_token.txt
+xsel < Documents/horel_token.txt
+xsel --clipboard < Documents/horel_token.txt
+cd 
+xsel --clipboard < ~/Documents/horel_token.txt
+la
+dotfiles add .gitconfig .cache/zsh/history
+dotfiles commit -m "update dorfiles repo"
+dotfiles push origin master
+xsel --clipboard < ~/Documents/horel_token.txt
+xsel --clipboard < ~/Documents/horel_token.txt
+la
+cd .dotfiles
+la
+cd
+la
+cd .config
+la
+vi package_install.sh
+vi package_install.sh
+mv package_install.sh restore_dotfiles.sh
+la
+vi restore_dotfiles.sh
+vi restore_dotfiles.sh
+./restore_dotfiles.sh
+./restore_dotfiles.sh
+la
+la restore_dotfiles.sh
+chmod +x restore_dotfiles.sh
+la restore_dotfiles.sh
+./restore_dotfiles.sh
+cd
+cd -
+./restore_dotfiles.sh
+vi restore_dotfiles.sh
+cd ..
+la
+git status
+dotfiles status
+cd -
+dotfiles add restore_dotfiles.sh
+git status
+dotfiles status
+dotfiles commit -m "add restore shell"
+dotfiles push origin master
+cd
+la
+cd dev
+la
+cd horel.github.io
+la
+git status
+hugo server --disableFastRender
+clear
+cd
+la .local/bin/
+la .local/bin/hugo_extended_0.120.4_linux-amd64
+cd $HOME/.local/bin
+cd
+vi .config/restore_dotfiles.sh
+./.config/restore_dotfiles.sh
+cd .local/bin/hugo_extended_0.120.4_linux-amd64
+la
+cd ..
+la
+rm *
+la
+rm -r hugo_extended_0.120.4_linux-amd64
+la
+cd 
+./.config/restore_dotfiles.sh
+cd -
+la
+cd
+vi .config/restore_dotfiles.sh
+dotfiles status
+dotfiles add .config/restore_dotfiles.sh
+dotfiles commit -m "update restore shell"
+dotfiles push origin master
+pacman -Ss tailscale
+sudo pacman -S tailscale
+tailscale
+tailscale up
+sudo systemctl start tailscaled
+tailscale up
+sudo tailscale up
+sudo tailscale up
+sudo tailscale up\
+
+vi Documents/MAC4.txt
+xsel --clipboard < ~/Documents/MAC4.txt
+vi Documents/MAC4.txt
+tailscale status\
+
+sudo pacman -Rns wakeonlan
+ip a
+sudo tailscale down\
+
+ip a
+sudo systemctl stop tailscaled
+sudo tailscale up\
+
+sudo systemctl start tailscaled
+sudo tailscale up\
+
+sudo systemctl status tailscaled\
+
+journalctl -u tailscaled\
+
+ip a
+ip a
+sudo systemctl restart tailscaled\
+
+sudo tailscale down\
+
+sudo tailscale up
+ping 100.99.99.99
+sudo tailscale down
+wol
+pacman -Ss wol
+sudo pacman -S wol
+pacman -Ss wakeonlan
+wol B8:CA:3A:EB:80:1B\
+
+ip a
+wol B8:CA:3A:EB:80:1B -p 9\
+
+wol -i 172.22.172.0/22 B8:CA:3A:EB:80:1B
+wol -i 172.22.172.0/22 B8:CA:3A:EB:80:1B -p 9
+sudo pacman -S wakeonlan
+wol -p 9 -i 172.22.172.0/22 B8:CA:3A:EB:80:1B
+wol -p 9 -i 172.22.172.0/22 B8:CA:3A:EB:80:1B
+wol -p 9 -i 172.22.172.0/22 B8:CA:3A:EB:80:1B
+wol -p 9 -i 172.22.172.0/22 B8:CA:3A:EB:80:1B
+wol -p 9 -i 172.22.175.255 B8:CA:3A:EB:80:1B
+pacman -Ss qq
+paru -Ss qq
+paru -Ss wechat
+shutdown now
+paru -Syu
+sudo pacman -S ssh
+sudo pacman -S ssh-tools
+sudo pacman -S openssh
+ssh horel@172.22.172.99
+ll
+ssh horel@172.22.172.99
+ping 100.99.99.99
+ping 172.22.172.99
+ping 172.22.172.99
+ssh horel@172.22.172.99
+reboot
+lsblk
+ll /
+paru -Syu
+reboot
+lsblk
+df -h
+ls /mnt
+mkdir /mnt/backup
+sudo mkdir /mnt/backup
+sudo mount /dev/sda1 /mnt/backup
+lsblk
+sudo pacman -S xfsprogs
+sudo pacman -Ss xfsdump
+sudo pacman -S xfsdump
+sudo xfsdump -l 0 -f /mnt/backup/full_backup.xfsdump /
+lsblk
+lsblk
+ls /mnt
+ls /mnt/backup
+sudo xfsdump -l 0 -f /mnt/backup/full_backup.xfsdump /
+df -h
+ll /mnt/backup
+sudo rm -rf /mnt/backup/full_backup.xfsdump
+ll /mnt/backup
+lsblk
+sudo pacman -S gdisk
+sudo gdisk /dev/nvme1n1
+lsblk
+df -h
+lsblk
+sudo gdisk /dev/nvme1n1
+sudo mkfs.xfs /dev/nvme1n1p4
+sudo partprobe\
+
+lsblk
+sudo mkfs.xfs /dev/nvme1n1p4
+lsblk
+sudo mkdir /xfsbackup
+sudo mount /dev/nvme1n1p4 /xfsbackup
+lsblk
+sudo xfsdump -f /mnt/backup/root_backup.xfsdump /
+ll /xfsbackup
+sudo rm -rf /mnt/backup/root_backup.xfsdump
+sudo xfsdump -f /xfsbackup /
+sudo xfsdump -f /xfsbackup/root_backup.xfsdump /
+sudo xfsdump -f /xfsbackup/home_backup.xfsdump /home
+sudo xfsdump -f /xfsbackup/boot_backup.xfsdump /boot
+ll /xfsbackup
+sudo rm -rf /xfsbackup/boot_backup.xfsdump
+ll
+ll /xfsbackup
+df -h /
+du -sh /*\
+
+sudo du -sh /*
+vi /etc/fstab
+sudo swapoff /swapfile
+sudo mv /swapfile /xfsbackup
+sudo du -sh /*
+sudo rm -rf /xfsbackup/root_backup.xfsdump
+sudo xfsdump -f /xfsbackup/root_backup.xfsdump /
+sudo mv /xfsbackup/swapfile /swapfile
+ll /xfsbackup
+sudo swapon /swapfile
+lsblk
+ll
+lsblk
+cd dev
+la
+cd
+sudo mkdir /mnt/udisk
+sudo mount /dev/sda1 /mnt/udisk
+sudo rm -rf /mnt/backup
+lsblk
+sudo cp /xfsbackup/home_backup.xfsdump /mnt/udisk
+ll /mnt/udisk
+rm -rf /mnt/udisk/full_backup.xfsdump
+sudo rm -rf /mnt/udisk/full_backup.xfsdump
+sudo cp /xfsbackup/root_backup.xfsdump /mnt/udisk
+sudo umount /dev/sda1
+lsblk
+ll /xfsbackup
+sudo xfsdump -f /xfsbackup/boot_backup.xfsdump /boot
+ll /boot
+ll /xfsbackup
+sudo rm -rf /xfsbackup/boot_backup.xfsdump
+sudo pacman -S rsync
+sudo rsync -av --progress /boot /xfsbackup\
+
+ll /xfsbackup
+sudo mount /dev/sda1 /mnt/udisk
+lsblk
+cp -r /xfsbackup/boot /mnt/udisk
+sudo cp -r /xfsbackup/boot /mnt/udisk
+sudo umount /dev/sda1
+lsblk
+sudo mount /dev/nvme1n1p4 /xfsbackup
+ll /xfsbackup
+rm -rf /xfsbackup
+sudo rm -rf /xfsbackup
+sudo rm -rf /xfsbackup
+sudo umount /dev/nvme1n1p4
+sudo rm -rf /xfsbackup
+ll /
+sudo gdisk /dev/nvme1n1
+lsblk
+vi .cache/zsh/history
+sudo partprobe\
+
+lsblk
+reboot
+paru -Syu
+paru -Syu
+reboot
+paru -Syu
+paru -Syu
+paru -Sy archlinux-keyring
+paru -Sy archlinuxcn-keyring
+paru -Syu
+paru -Qs clash
+paru -Ss clash
+paru -Ss clash-verge
+sudo pacman -Sy archlinux-keyring
+sudo pacman -Sy archlinux-keyring
+ping mirrors.bfsu.edu.cn
+ping mirrors.bfsu.edu.cn
+sudo pacman -Sy archlinux-keyring
+sudo pacman -Sy archlinux-keyring
+sudo pacman -Sy archlinuxCN-keyring
+sudo pacman -Sy archlinuxcn-keyring
+sudo pacman -Syu
+shutdown now
+sudo pacman -Syu
+vi .config/alacritty/alacritty.toml
+vi
+paru -Syu
+vi /etc/pacman.d/mirrorlist
+sudo vi /etc/pacman.d/mirrorlist
+sudo nvim /etc/pacman.d/mirrorlist
+sudo nvim /etc/pacman.d/mirrorlist
+ping mirrors.tuna.tsinghua.edu.cn
+ping mirrors.ustc.edu.cn
+ping mirrors.lzu.edu.cn
+paru -Syu
+sudo nvim /etc/pacman.conf
+paru -Syu
+reboot
+sudo pacman -Sy archlinuxcn-keyring
+sudo pacman -Sy archlinux-keyring
+paru
+vi /etc/pacman.d/mirrorlist
+paru
+shutdown now
+sudo pacman -Sy archlinux-keyring
+sudo pacman -Sy archlinuxcn-keyring
+sudo pacman -Syu
+sudo pacman -Syu
+reboot
+pacman -Qs z
+clear
+pacman -Qs zsh
+z
+z
+which z
+pacman -Qs zoxide
+ssh horel@172.22.172.81
+sudo pacman -Sy archlinuxcn-keyring
+sudo pacman -Sy archlinux-keyring
+sudo pacman -Syu
+ssh horel@172.22.172.99
+ssh horel@172.22.172.81
+exit
+reboot
+ls /var/cache/pacman/pkg
+ls /var/cache/pacman/pkg | grep clash
+sudo pacman -U /var/cache/pacman/pkg/clash-verge-rev-2.0.3-2-x86_64.pkg.tar.zst
+reboot
+cd .local/share/
+rm -rf io.github.clash-verge-rev.clash-verge-rev
+rm -rf clash-verge
+la
+la | grep clash
+cd /var/cache/pacman/pkg
+sudo pacman -U /var/cache/pacman/pkg/clash-verge-rev-2.0.3-2-x86_64.pkg.tar.zst
+cd .local/share/
+la
+la | grep clash
+la | grep clash
+pacman -Qs clash
+sudo nvim /etc/pacman.conf
+sudo pacman -Syu
+scp /var/cache/pacman/pkg/clash-verge-rev-2.0.3-2-x86_64.pkg.tar.zst root@172.22.172.81:/var/cache/pacman/pkg 
+sudo scp /var/cache/pacman/pkg/clash-verge-rev-2.0.3-2-x86_64.pkg.tar.zst root@172.22.172.81:/var/cache/pacman/pkg 
+sudo scp /var/cache/pacman/pkg/clash-verge-rev-2.0.3-2-x86_64.pkg.tar.zst horel@172.22.172.81:/var/cache/pacman/pkg 
+sudo scp /var/cache/pacman/pkg/clash-verge-rev-2.0.3-2-x86_64.pkg.tar.zst horel@172.22.172.81:/ 
+sudo scp /var/cache/pacman/pkg/clash-verge-rev-2.0.3-2-x86_64.pkg.tar.zst root@172.22.172.81:/ 
+sudo scp /var/cache/pacman/pkg/clash-verge-rev-2.0.3-2-x86_64.pkg.tar.zst horel@172.22.172.81:/home/horel/ 
+sudo scp /var/cache/pacman/pkg/clash-verge-rev-2.0.3-2-x86_64.pkg.tar.zst.sig horel@172.22.172.81:/home/horel/ 
+ssh horel@172.22.172.81
+pacman -Qs xclip
+pacman -Qs xsel
+echo $ZSH_ALIASES
+echo $DISPLAY
+vi /etc/pacman.d/mirrorlist
+vi
+vi
+cd .config/nvim
+la
+./clean_nvim.sh
+vi
+vi
+./clean_nvim.sh
+vi
+vi
+ssh horel@172.22.172.81
+ssh horel@172.22.172.81
+git fetch
+git status
+git pull
+paru -Syu
+clear
+code .
+la
+tree .var
+rm -rf .var
+clear
+la
+ll
+vi .ssh/known_hosts
+vi .cache/zsh/history
+ssh horel@172.22.172.81
+ssh horel@172.22.172.81
+paru -Syu
+ssh horel@172.22.172.81
+paru -Syu
+ssh horel@172.22.172.81
+ssh horel@172.22.172.81
+pacman -Ss utools
+paru -Ss utools
+pacman -Qs frame
+vi /etc/NetworkManager/conf.d/20-connectivity.conf
+vi /etc/NetworkManager/conf.d/20-connectivity.conf
+sudo nvim /etc/NetworkManager/conf.d/20-connectivity.conf
+ssh horel@172.22.172.62
+sudo pacman -Ss gwen
+ssh horel@172.22.172.62
+vi /etc/NetworkManager/conf.d/20-connectivity.conf
+vi .config/chrome-flags.conf
+ssh horel@172.22.172.62
+ssh horel@172.22.172.62
+ssh horel@172.22.172.62
+pacman -Qs lua
+visudo
+sudo visudo
+vi .cache/zsh/history
+git status
+git fetch
+git status
+hugo server --disableFastRender
+git status
+git add content/posts/Arch-Linuxæƒ¬ƒ§åƒ­ƒ·/index.md
+git commit -m "update archlinux"
+git push origin master
+git add content/posts/Arch-Linuxæƒ¬ƒ§åƒ­ƒ·/index.md
+git commit -m "update archlinux"
+git push origin master
