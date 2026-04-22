@@ -1,0 +1,11 @@
+patch:
+  speller/algebra/+:
+    # en ↔ eng
+    - derive/^([bpmfdtnlgkhjqxrzcsy])en$/$1eng/
+    - derive/^([bpmfdtnlgkhjqxrzcsy])eng$/$1en/
+    # in ↔ ing
+    - derive/^([bpmfdtnlgkhjqxrzcsy])in$/$1ing/
+    - derive/^([bpmfdtnlgkhjqxrzcsy])ing$/$1in/
+
+  menu/page_size: 7   # 设为 5-9 均可
+
