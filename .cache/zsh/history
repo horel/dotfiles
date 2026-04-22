@@ -1501,3 +1501,1509 @@ git push origin master
 git add content/posts/Arch-LinuxÊÉ¨ÉßÂÉ≠É∑/index.md
 git commit -m "update archlinux"
 git push origin master
+xsel --clipboard < ~/Documents/MAC4.txt
+la
+vi /usr/lib/NetworkManager/conf.d/20-connectivity.conf
+vi /etc/NetworkManager/conf.d/20-connectivity.conf
+pacman -Ss potplayer
+paru -Ss potplayer
+ssh horel@172.22.172.62
+pacman -Ss wakeonlan
+sudo pacman -S wakeonlan
+wakeonlan --help
+wakeonlan 98:FA:9B:F0:06:38
+wol -p 9 98:FA:9B:F0:06:38
+wol -p 9 -i 172.22.175.255 98:FA:9B:F0:06:38
+sudo pacman -Rns wakeonlan
+sudo pacman -Qs eth
+sudo pacman -Qs wol
+clear
+clear
+vi .cache/zsh/history
+dotfiles status
+dotfiles add .cache/zsh/history
+git status
+dotfiles status
+dotfiles commit -m "update zsh history"
+dotfiles push origin master
+dotfiles push origin master
+la Documents
+xsel --clipboard < ~/Documents/horel_token.txt
+dotfiles push origin master
+vi Documents/horel_token.txt
+xsel --clipboard < ~/Documents/horel_token.txt
+dotfiles push origin master
+clear
+scp Documents/horel_token.txt horel@172.22.172.62:/home/horel/Documents/
+ssh horel@172.22.172.62
+ssh horel@172.22.172.62
+ssh horel@172.22.172.62
+ssh horel@172.22.172.62
+ssh horel@172.22.172.62
+ssh horel@172.22.172.62
+hugo server --disableFastRender
+git add content/posts/Arch-LinuxÊÉ¨ÉßÂÉ≠É∑/index.md
+git commit -m "update archlinux"
+git push origin master
+ssh horel@172.22.172.62
+ssh horel@172.22.172.62
+ping ping.archlinux.org
+ping ping.archlinux.org
+lsblk
+mount /dev/nvme1n1p2 /tmp
+sudo mount /dev/nvme1n1p2 /tmp
+paru -Ss ntfs
+sudo pacman -S ntfs-3g
+pacman -Qs ntfs
+sudo pacman -Rns ntfs-3g
+sudo pacman -Ss ntfs
+ssh horel@172.22.172.62
+ssh horel@172.22.172.62
+shutdown now
+sudo pacman -Sy archlinux-keyring
+sudo pacman -Sy archlinuxcn-keyring
+paru
+shutdown now
+pactl list sinks | grep "Sample Spec"
+pactl list sinks | grep "Sample Spec"
+pactl list sinks | grep "Sample Spec"
+pactl list sinks | grep "Sample Spec"
+pactl list sinks | grep "Sample Spec"
+sudo pacman -Sy archlinuxcn-keyring
+sudo pacman -Sy archlinux-keyring
+paru
+paru
+reboot
+sudo pacman -Sy archlinux-keyring
+sudo pacman -Sy archlinux-keyring
+sudo pacman -Sy archlinuxcn-keyring
+paru
+paru
+reboot
+paru -Sy archlinuxcn-keyring
+paru -Sy archlinuxcn-keyring
+paru -Sy archlinux-keyring
+paru
+paru
+sudo pacman -Syu
+sudo pacman -Sy linux-firmware-nvidia
+clear
+sudo pacman -Syu
+sudo pacman -Rdd linux-firmware
+sudo pacman -S linux-firmware linux-firmware-nvidia
+sudo pacman -Syu
+paru
+sudo pacman -Sy archlinuxcn-keyring
+sudo pacman -Sy archlinux-keyring
+sudo pacman -Syu
+reboot
+paru
+sudo vi /etc/pacman.d/mirrorlist
+sudo vi /etc/pacman.d/mirrorlist
+sudo nvim /etc/NetworkManager/conf.d/20-connectivity.conf
+vi /etc/pacman.d/mirrorlist
+vi /etc/pacman.conf
+sudo nvim /etc/pacman.conf
+paru
+reboot
+paru
+vi .config/chrome-flags.conf
+shutdown now
+reboot
+sudo pacman -Sy archlinux-keyring
+sudo pacman -Sy archlinuxcn-keyring
+sudo pacman -Syu
+paru
+paru
+reboot
+clear
+sudo pacman -Syu
+clash-verge
+reboot
+reboot
+shutdown now
+neofetch
+sudo pacman -Syu
+history
+vi .cache/zsh/history
+cd /
+ls -al
+cd /home
+ls -al
+cd horel
+ls -al
+ps -aux 
+htop
+top
+htop
+ls -la
+top
+la
+ls
+ll
+ls -al
+vi .config/zsh/.zshrc
+exa
+exa -la
+ls 
+gcc --help
+gcc --version
+clang -v
+top
+lsblk
+reboot
+clash-verge
+sudo pacman -Rns clash-verge-rev
+htop
+ps
+ps -aux 
+ps -aux | grep clash
+ps -aux | grep clash
+sudo pacman -Rns clash-verge-rev
+reboot
+sudo pacman -Syu
+paru
+reboot
+sudo pacman -Ss clash-verge
+sudo pacman -Ss clash-verge-rev
+sudo pacman -S clash-verge-rev
+reboot
+paru
+sudo pacman -Scc
+neofetch
+pacman -Ss neofetch
+paru -Ss neofetch
+sudo pacman -Syu
+sudo pacman -Sy
+sudo pacman -Rns neofetch
+sudo pacman -S fastfetch
+fastfetch
+fastfetch
+fastfetch
+la /
+reboot
+la
+la .dotnet
+rm -rf .dotnet
+la
+rm .gtkrc-2.0
+rm .viminfo
+la
+vi .zprofile
+ll
+clear
+ll /mnt
+mkdir /mnt/backup
+sudo mkdir /mnt/backup
+mkdir /mnt/backup
+ll /mnt
+paru -Scc
+sudo xfsdump -l 0 -f /mnt/backup/root_backup.xfsdump /
+sudo xfsdump -l 0 -f /mnt/backup/home_backup.xfsdump /home
+ll /mnt/backup
+lsblk
+df -h /
+df -h 
+ll
+cd /mnt/backup
+la
+sudo rm -rf *.xfsdump
+ll
+cd ..
+sudo rm backup
+sudo rmdir backup
+ll
+cd udisk
+la
+ll
+cd
+ll
+lsblk
+mount /dev/nvme1n1p2 /tmp
+sudo mount /dev/nvme1n1p2 /tmp
+ll
+cd /tmp
+la
+ll
+cd ..
+ll
+lsblk
+sudo umount /dev/nvme1n1p2
+lsblk
+cd /tmp
+ll
+reboot
+\
+du -sh /proc /sys /dev /run 2>/dev/null | grep -v '^0'\
+du -sh /tmp /var/tmp /var/cache /var/log/journal 2>/dev/null
+lsblk
+df -h 
+ll
+sudo mkdir /mnt/win
+lsblk
+sudo rmdir /mnt/win
+sudo mkdir /tmp/win
+sudo mount /dev/nvme0n1p2 /tmp/win
+ll
+ll /tmp/win
+cd /tmp/win/Users
+la
+cd ..
+la
+sudo xfsdump -v trace -l 0 -z 9 \\
+  -s proc -s sys -s dev -s run -s tmp -s var/tmp -s var/cache -s var/log/journal \\
+  -f /tmp/win/root_backup_$(date +%Y%m%d_%H%M%S).xfsdump /
+ll
+sudo rm root_backup_20250928_015400.xfsdump
+sudo xfsdump -v trace -l 0 -z 9 \\
+  -s proc -s sys -s dev -s run -s tmp -s var/tmp -s var/cache -s var/log/journal \\
+  -f /tmp/win/root_backup_$(date +%Y%m%d_%H%M%S).xfsdump /
+ll /tmp/win
+sudo rm /tmp/win/root_backup_20250928_015529.xfsdump
+ll /tmp/win
+reboot
+lsblk
+gdisk /dev/nvme1n1
+sudo gdisk /dev/nvme1n1
+lsblk
+partprobe
+lsblk
+reboot
+lsblk
+sudo mount /dev/nvme1n1p4 /tmp/xfsdump
+sudo mkdir /tmp/xfsdump
+sudo mount /dev/nvme1n1p4 /tmp/xfsdump
+ll
+lsblk
+sudo umount /dev/nvme1n1p4
+lsblk
+sudo mount /dev/nvme1n1p4 /tmp/xfsdump
+lsblk
+sudo xfsdump -v trace -l 0 -z 9 \\
+  -s proc -s sys -s dev -s run -s tmp -s var/tmp -s var/cache -s var/log/journal \\
+  -f /tmp/xfsdump/root_backup_$(date +%Y%m%d_%H%M%S).xfsdump /
+cd /
+sudo xfsdump -v trace -l 0 -z 9 \\
+  -s proc -s sys -s dev -s run -s tmp -s var/tmp -s var/cache -s var/log/journal \\
+  -f /tmp/xfsdump/root_backup_$(date +%Y%m%d_%H%M%S).xfsdump /
+clear
+sudo xfsdump -v trace -l 0 -z 9 \\
+  -s tmp -s var/tmp -s var/cache -s var/log/journal \\
+  -f /tmp/xfsdump/root_backup_$(date +%Y%m%d_%H%M%S).xfsdump /
+sudo xfsdump -v trace -l 0 -z 9 \\
+\
+  -f /tmp/xfsdump/root_backup_$(date +%Y%m%d_%H%M%S).xfsdump /
+sudo xfsdump -v trace -l 0 -z 9 -f /tmp/xfsdump/root_backup_$(date +%Y%m%d_%H%M%S).xfsdump /
+sudo xfsdump -v trace -l 0 -z 9 -f /tmp/xfsdump/home_backup_$(date +%Y%m%d_%H%M%S).xfsdump /home
+sudo mkfs.xfs /dev/nvme1n1p4
+lsblk
+sudo mkfs.xfs -f /dev/nvme1n1p4
+sudo mkfs.xfs -f /dev/nvme1n1p4
+df -h 
+df -h 
+cd /tmp/xfsdump
+ll
+sudo rm root_backup_20250928_020430.xfsdump
+ll
+sudo rm root_backup_20250928_020430.xfsdump
+sudo rm root_backup_20250928_020508.xfsdump
+ll
+sudo rm root_backup_20250928_020615.xfsdump
+ll
+ll
+clear
+ll
+lsblk
+sudo mount /dev/sda1 /mnt/udisk
+ll /mnt/udisk
+cd /tmp/xfsdump
+ll
+cp home_backup_20250928_020756.xfsdump /mnt/udisk
+sudo cp home_backup_20250928_020756.xfsdump /mnt/udisk
+sudo cp root_backup_20250928_020710.xfsdump /mnt/udisk
+sudo umount /dev/sda1
+lsblk
+sudo mount /dev/sda1 /mnt/udisk
+ll /mnt/udisk
+cd /tmp/xfsdump
+ll
+sudo cp root_backup_20250928_020710.xfsdump /mnt/udisk
+sudo cp home_backup_20250928_020756.xfsdump /mnt/udisk
+sudo umount /dev/sda1
+ll /tmp/xfsdump
+xfsdump --help
+lsblk
+sudo xfsdump -v trace -l 0 -E /tmp -f /tmp/xfsdump/root_backup_$(date +%Y%m%d_%H%M%S).xfsdump /
+ll /mnt/udisk
+ll /tmp/xfsdump
+cd /tmp/xfsdump
+ls
+rm -rf *.xfsdump
+sudo rm -rf *.xfsdump
+ll
+cd
+sudo xfsdump -v trace -l 0 -E /tmp -f /tmp/xfsdump/root_backup_$(date +%Y%m%d_%H%M%S).xfsdump /
+cd -
+ll
+sudo rm -rf *.xfsdump
+cd
+lsblk
+sudo xfsdump -v trace -l 0 -E /tmp/xfsdump -f /tmp/xfsdump/root_backup_$(date +%Y%m%d_%H%M%S).xfsdump /
+sudo xfsdump -v trace -l 0 -E /tmp/xfsdump/root_backup.xfsdump -f /tmp/xfsdump/root_backup.xfsdump /
+sudo xfsdump -v trace -l 0 -f /tmp/xfsdump/root_backup.xfsdump /
+ll /tmp/xfsdump
+sudo rm /tmp/xfsdump/root_backup_20250928_025329.xfsdump
+du -sh /var/cache/pacman/pkg\
+
+sudo paccache -r\
+
+sudo pacman -Qtdq\
+
+sudo pacman -Qtdq | sudo pacman -Rns -\
+
+sudo du -ah /var/log | sort -rh | head -n 10\
+
+sudo journalctl --vacuum-size=100M\
+
+pacman -Q | grep linux\
+
+pacman -Ss paccache
+sudo pacman -S pacman-contrib\
+
+du -sh /var/cache/pacman/pkg\
+
+sudo paccache -r\
+
+du -sh /var/cache/pacman/pkg\
+
+sudo paccache -rk1\
+
+du -sh /var/cache/pacman/pkg\
+
+sudo paccache -ruk0\
+
+du -sh /var/cache/pacman/pkg\
+
+reboot
+ll /tmp/xfsdump
+sudo mkdir /tmp/xfsdump
+sudo xfsdump -v trace -l 0 -f /tmp/xfsdump/root_backup.xfsdump /
+ll /tmp/xfsdump
+sudo xfsdump -v trace -l 0 -f /tmp/xfsdump/home_backup.xfsdump /home
+ll /tmp/xfsdump
+sudo rm /tmp/xfsdump/home_backup.xfsdump
+sudo xfsdump -v trace -l 0 -f /tmp/xfsdump/home_backup.xfsdump /home
+lsblk
+ll /tmp/xfsdump
+sudo rm /tmp/xfsdump/home_backup.xfsdump
+sudo rm /tmp/xfsdump/root_backup.xfsdump
+ll /tmp/xfsdump
+lsblk
+sudo mount /dev/nvme0n1p4 /tmp/xfsdump
+lsblk
+sudo xfsdump -v trace -l 0 -f /tmp/xfsdump/root_backup.xfsdump /
+root
+sudo pacman -Syu
+paru -Ss flclash
+paru -S flclash-bin
+reboot
+paru -S flclash-bin
+paru -Rns clash-verge-rev
+reboot
+ip a
+sudo systemctl enable --now sshd
+vi .config/chrome-flags.conf
+cd Downloads
+ll
+cp -r CRT-Amber-GRUB-Theme /boot/grub/themes/
+sudo cp -r CRT-Amber-GRUB-Theme /boot/grub/themes/
+ll /boot/grub/themes
+svi /boot/grub/grub.cfg
+svi /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo pacman -Sy archlinuxcn-keyring
+sudo pacman -Sy archlinux-keyring
+sudo pacman -Sy amd-ucode intel-ucode
+clear
+sudo systemctl stop    clash-verge-rev.service
+ll /etc/systemd/system
+sudo rm -f /etc/systemd/system/clash-verge-rev.service
+ll /etc/systemd/system
+sudo rm -f /etc/systemd/system/clash-verge-service.service
+ll /etc/systemd/system
+sudo systemctl daemon-reload
+ll /bin/uninstall-service
+ll /bin/
+ll .config
+ll .config/io.github.clash-verge-rev.clash-verge-rev
+rm -rf .config/io.github.clash-verge-rev.clash-verge-rev
+ll .cache | grep clash
+ll .cache/clash-verge
+rm -rf .cache/clash-verge
+ll .local | grep clash
+ll .local/share | grep clash
+ll .local/share/clash-verge
+ll .local/share/io.github.clash-verge-rev.clash-verge-rev
+rm -rf .local/share/io.github.clash-verge-rev.clash-verge-rev
+rm -rf .local/share/clash-verge
+ll /opt | grep clash
+ll /usr/local/bin/ | grep clash
+ll /usr/local/bin | grep clash
+paru -c
+vi .cache/zsh/history
+sudo paccache -ruk0\
+
+sudo pacman -Scc
+ll /swapfile
+sudo rm -rf /swapfile
+sudo swapoff /swapfile
+sudo rm -rf /swapfile
+dd if=/dev/zero of=/swapfile bs=1M count=16384 status=progress
+sudo dd if=/dev/zero of=/swapfile bs=1M count=16384 status=progress
+sudo chmod 600 /swapfile
+mkswap /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+vim /etc/fstab
+svi /etc/fstab
+clear
+lsblk
+df -h 
+svi /etc/mkinitcpio.conf
+sudo mkinitcpio -P
+sudo grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=Arch --recheck --removable
+dotfiles status
+svi /etc/sddm.conf
+sudo systemctl restart sddm
+svi /etc/default/grub
+reboot
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+paru -Syu
+paru -Syu
+paru -Syu
+reboot
+paru -Syu
+reboot
+ll
+clear
+ll
+rm .viminfo
+clear
+dotfiles status
+dotfiles diff
+dotfiles status
+dotfiles diff .cache/zsh/history
+dotfiles status
+dotfiles diff .config/chrome-flags.conf
+dotfiles diff .config/nvim/lazy-lock.json
+dotfiles diff .config/fcitx5/conf/cached_layouts
+dotfiles status
+dotfiles statu
+dotfiles status
+dotfiles diff modified:   .config/fcitx5/conf/pinyin.conf
+dotfiles diff .config/fcitx5/conf/pinyin.conf
+clear
+paru -Syu
+ip a
+vi
+clear
+ip a
+paru -Syu
+paru -Syu
+paru -Syu
+shutdown now
+paru -Syu
+paru -Syu
+reboot
+shutdown now
+paru -Syu
+reboot
+df -h 
+sudo mkinitcpio -P
+sudo pacman -Syu
+sudo mkswap /swapfile
+sudo swapon /swapfile
+lsblk
+clear
+df -h 
+swapon --show
+svi /etc/default/grub
+svi /etc/grub.d/10_linux
+svi /etc/mkinitcpio.conf
+shutdown now
+shutdown now
+shutdown now
+shutdown now
+paru -Syu
+shutdown now
+sudo pacman -S mesa
+sudo pacman -S xf86-video-amdgpu
+sudo pacman -S vulkan-radeon
+paru
+reboot
+paru
+paru
+reboot
+paru
+reboot
+ll /swapfile
+lsblk
+sudo mount /dev/sda1 /tmp/xfsdump
+mkdir /tmp/xfsdump
+sudo mount /dev/sda1 /tmp/xfsdump
+clear
+sudo xfsdump -v trace -l 0 -f /tmp/xfsdump/root_backup.xfsdump /
+rm -rf /tmp/xfsdump/home_backup.xfsdump
+rm -rf /tmp/xfsdump/root_backup.xfsdump
+sudo xfsdump -v trace -l 0 -f /tmp/xfsdump/root_backup.xfsdump /
+sudo xfsdump -v trace -l 0 -f /tmp/xfsdump/home_backup.xfsdump /home
+shutdown now
+reboot
+paru -S os-prober
+svi /etc/default/grub 
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+svi /etc/default/grub 
+lsblk
+mkdir /mnt/MS
+sudo mkdir /mnt/MS
+mount /dev/nvme1n1p1 /mnt/MS
+sudo mount /dev/nvme1n1p1 /mnt/MS
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+svi /etc/default/grub 
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+lsblk
+reboot
+paru
+python --version
+pacman -Ss miniconda
+pacman -Ss conda
+paru -Ss miniconda
+nvidia-smi\
+
+reboot
+paru
+reboot
+paru
+paru -Ss pyenv
+paru -Ss uv
+paru -Ss uv
+clear
+pacman -Ss uv
+pacman -Qs python
+shutdown now
+uv python list
+ll
+cd dev
+ll
+uv python install 3.9
+ll
+uv python install 3.9
+ll ~/.local/share/uv
+ll ~/.local/share/uv/python/
+cd ~/.local/share/uv/python/
+ll
+cd cpython-3.9.24-linux-x86_64-gnu
+ll
+cd
+cd dev
+mkdir pytorch
+cd pytorch
+uv python pin 3.9
+python --version
+ll
+vi .python-version
+uv python pin 3.9.24
+uv venv
+ll
+source .venv/bin/activate
+python --version
+clear
+exit
+cd dev/pytorch
+ll
+source .venv/bin/activate
+vi .venv/pyvenv.cfg
+python --version
+clear
+uv add torch torchvision
+touch pyproject.toml
+uv add torch torchvision
+uv add torch torchvision --dev
+ll
+vi pyproject.toml
+ll .venv
+cd .venv
+ll bin
+ll lib
+ll
+ll lib/python3.9/site-packages
+vi lib/python3.9/site-packages/_virtualenv.pth
+vi lib/python3.9/site-packages/_virtualenv.py
+uv add torch torchvision --dev
+ll lib/python3.9/site-packages
+cd ..
+ll .venv
+cd ..
+cd pytorch
+uv lock
+ll
+cd ..
+la
+rm -rf pytorch
+ll
+uv init example
+cd example
+ll
+vi .python-version
+source .venv/bin/activate
+uv venv
+source .venv/bin/activate
+clear
+uv add ruff
+uv run ruff check
+ll
+vi uv.lock
+uv lock
+uv sync
+cd ..
+rm -rf example
+clear
+deactivate
+mkdir pytorch
+ll
+cd pytorch
+cd ..
+rm -rf pytorch
+uv init pytorch
+cd pytorch
+ll
+uv add torch==2.7.0+cu128 torchvision==0.22.0 torchaudio==2.7.0 \\
+   --index-url https://download.pytorch.org/whl/cu128
+vi .python-version
+vi pyproject.toml
+cd ..
+rm -rf pytorch
+ll
+uv python uninstall 3.9
+uv python list
+uv init pytorch
+cd pytorch
+python --version
+uv add torch==2.7.0+cu128 torchvision==0.22.0 torchaudio==2.7.0 \\
+   --index-url https://download.pytorch.org/whl/cu128
+source .venv/bin/activate
+python --version
+python
+ll
+vi main.py
+sudo pacman -Ss pyright-langserv\
+
+sudo pacman -Ss pyright-langserv\
+
+pacman -Ss pyright
+sudo pacman -S pyright
+vi main.py
+py main.py
+python main.py
+uv add torch==2.7.0+cu121 torchvision==0.22.0 torchaudio==2.7.0 \\
+   --index-url https://download.pytorch.org/whl/cu121
+uv --help
+uv remove torch 
+python main.py
+cd ..
+rm -rf pytorch
+uv init pytorch --python 3.13
+cd pytorch
+ll
+source .venv/bin/activate
+uv add torch==2.7.0+cu121 torchvision==0.22.0 torchaudio==2.7.0 \\
+   --index-url https://download.pytorch.org/whl/cu121\
+
+uv add torch==2.5.1+cu121 torchvision==0.20.1 torchaudio==2.5.1 \\
+   --index-url https://download.pytorch.org/whl/cu121
+uv python install 3.12
+cd ..
+rm -rf pytorch
+uv init pytorch --python 3.12
+cd pytorch
+source .venv/bin/activate
+python --version
+ll
+vi .python-version
+uv python list
+source .venv/bin/activate
+ll
+uv venv
+source .venv/bin/activate
+python --version
+uv add torch==2.5.1+cu121 torchvision==0.20.1 torchaudio==2.5.1 \\
+   --index-url https://download.pytorch.org/whl/cu121
+cd ..
+rm -rf pytorch
+uv python uninstall 3.12
+deactivate
+uv init pytorch
+cd pytorch
+ll
+source .venv/bin/activate
+uv venv
+source .venv/bin/activate
+uv add torch==2.7.0+cu118 torchvision==0.22.0 torchaudio==2.7.0 \\
+   --index-url https://download.pytorch.org/whl/cu118
+vi main.py
+python main.py
+nvidia-smi | grep "Driver Version"
+nvidia-smi
+reboot
+paru
+sudo pacman -S uv
+clear
+ll
+uv --version
+uv --help
+uv python --help
+uv python list
+ip a
+sudo systemctl start sshd
+sudo systemctl start sshd
+ip a
+reboot
+cd dev
+ll
+uv init pytorch
+cd pytorch
+ll
+uv add torch==2.9.0+cu130 torchvision==0.24.0 torchaudio==2.9.0 --index-url https://download.pytorch.org/whl/cu130
+cd ..
+rm -rf pytorch
+uv init pytorch
+cd pytorch
+uv add torch==2.9.0+cu130 torchvision==0.24.0 torchaudio==2.9.0 --default-index https://download.pytorch.org/whl/cu130
+vi main.py
+python main.py
+source .venv/bin/activate
+python main.py
+deactivate
+clear
+ll .venv
+ll .venv/lib/python3.13/site-packages/
+python main.py
+source .venv/bin/activate
+python main.py
+vi .gitignore
+ll
+du -sh .venv
+clear
+python main.py
+exit
+cd dev/pytorch
+source .venv/bin/activate
+python main.py
+cd ..
+uv python list
+rm -rf pytorch
+deactivate
+ip a
+exit
+shutdown now
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+shutdown now
+paru
+paru
+paru
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+sudo grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=Arch --recheck --removable
+reboot
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+shutdown now
+paru
+reboot
+paru
+ll
+rustup update
+cd dev
+ll
+vi code.c
+gcc code.c
+vi code.c
+gcc code.c
+ll
+./a.out
+vi code.c
+vi code.c
+vi code.c
+vi code.c
+cd ~/.config/nvim/lua/
+ll
+vi general.lua
+vi plugins/init.lua
+vi plugins/init.lua
+ip a
+ifconfig
+ip addr
+paru
+reboot
+ip a
+ip a
+ip a
+shutdown now
+ip a
+paru
+shutdown now
+paru
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+shutdown now
+paru
+clear
+paru
+paru
+shutdown now
+paru
+reboot
+paru
+shutdown now
+paru
+shutdown now
+paru
+paru
+paru
+shutdown now
+paru
+shutdown now
+paru
+reboot
+paru
+paru
+reboot
+paru
+uv --help
+uv python list
+shutdown now
+paru
+vi .config/alacritty/alacritty.toml
+sudo pacman -Syu
+vi .config/alacritty/alacritty.toml
+vi .config/alacritty/alacritty.toml
+vi .config/alacritty/alacritty.toml
+vi .config/alacritty/alacritty.toml
+vi .config/alacritty/alacritty.toml
+shutdown now
+paru
+uv python list
+rustup update
+shutdown now
+paru
+paru
+paru
+paru
+reboot
+paru
+sudo ll
+shutdown now
+shutdown now
+paru
+shutdown now
+ll
+paru -Qs conda
+uv python list
+nvidia-smi
+ll
+cd dev
+ll
+cd pytorch
+ll
+shutdown now
+paru
+paru
+ip a
+clear
+ip a
+shutdown now
+sudo pacman -Syu
+fastfetch
+uv python list
+cd dev
+ll
+cd pytorch
+ll
+source .venv/bin/activate
+python --version
+uv python list
+deactivate
+ll
+cd dev/pytorch
+ll
+cd ..
+rm -rf pytorch
+uv init pytorch
+cd pytorch
+uv init
+ll
+uv venv
+source .venv/bin/activate
+uv python list
+nvidia-smi
+uv add torch torchvision --index-url https://download.pytorch.org/whl/cu130
+uv add torch torchvision --default-index https://download.pytorch.org/whl/cu130
+ll
+rm -rf .venv
+uv venv
+uv add torch torchvision
+python 
+vim 
+vi
+uv search jupter
+uv --help
+uv add --dev ipykernel
+ju
+jupyter notebook
+uv add --dev jupyter
+jupyter notebook
+jupyter laB
+jupyter lab
+jupyter notebook
+jupyter notebook
+clear
+python main.py
+uv remove ipykernel
+source .venv/bin/activate
+uv remove ipykernel
+uv remove ipykernel --group dev
+clear
+jupyter notebook
+clear
+python
+ll ~
+cd
+rm -rf .wget-hsts .viminfo .python_history
+ll .ipython
+ll
+ll .jupyter
+vi .jupyter/migrated
+rm -rf .jupyter .ipython
+cd -
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+ip a
+sudo systemctl start sshd
+cd dev/pytorch
+source .venv/bin/activate
+jupyter notebook
+source .venv/bin/activate
+python main.py
+python main.py
+python read_data.py
+uv add opencv-python
+adasda
+python read_data.py
+python read_data.py
+python read_data.py
+python read_data.py
+python gen_lable.py
+python gen_lable.py
+python gen_lable.py
+python gen_lable.py
+python gen_lable.py
+clear
+cd dev/pytorch
+so
+source .venv/bin/activate
+python read_data.py
+ll dataset/train/bees_label
+shutdown now
+uv add tensorboard
+source .venv/bin/activate
+python test_tb.py
+python test_tb.py
+tensorboard --logdir=logs
+python test_tb.py
+tensorboard --logdir=logs
+uv add opencv-python
+uv add numpy
+python test_tb.py
+tensorboard --logdir=logs
+uv add opencv-python
+python Transforms.py
+uv add torch torchvision
+source .venv/bin/activate
+uv add torch torchvision
+python Transforms.py
+tensorboard --logdir=logs
+ip a
+ip a
+shutdown now
+ip a
+clear
+source .venv/bin/activate
+paru
+paru
+reboot
+source .venv/bin/activate
+py P10_UsefulTransforms.py
+py P10_UsefulTransforms.py
+py P10_UsefulTransforms.py
+py P10_UsefulTransforms.py
+py P10_UsefulTransforms.py
+py P10_UsefulTransforms.py
+py P10_UsefulTransforms.py
+py P10_UsefulTransforms.py
+py P10_UsefulTransforms.py
+py P10_UsefulTransforms.py
+py P10_UsefulTransforms.py
+source .venv/bin/activate
+python P10_UsefulTransforms.py
+python P10_UsefulTransforms.py
+vi ~/.config/zsh/.zshrc
+source ~/.config/zsh/.zshrc
+py CallTest.py
+py CallTest.py
+source .venv/bin/activate
+py P10_UsefulTransforms.py
+tensorboard --logdir=logs
+py P10_UsefulTransforms.py
+tensorboard --logdir=logs
+ip a
+shutdown now
+ip a
+paru
+source .venv/bin/activate
+py P10_dataset_transform.py
+py P10_dataset_transform.py
+py P10_dataset_transform.py
+py P10_dataset_transform.py
+py P10_dataset_transform.py
+py P10_dataset_transform.py
+tensorboard --logdir=logs
+py P10_dataset_transform.py
+tensorboard --logdir=logs
+py dataloader.py
+py dataloader.py
+py dataloader.py
+py dataloader.py
+py dataloader.py
+tensorboard --logdir=logs
+tensorboard --logdir=logs
+tensorboard --logdir=logs
+py dataloader.py
+py dataloader.py
+tensorboard --logdir=logs
+py dataloader.py
+tensorboard --logdir=logs
+tensorboard --logdir=logs
+py dataloader.py
+ll
+py dataloader.py
+ll .venv
+uv add torch torchvision
+source .venv/bin/activate
+py dataloader.py
+tensorboard --logdir=logs
+source .venv/bin/activate
+py nn_module.py
+py nn_conv.py
+py nn_conv.py
+py nn_conv.py
+py nn_conv.py
+py nn_conv.py
+shutdown now
+shutdown now
+sudo pacman -Sy archlinux-keyring
+sudo pacman -Sy archlinux-keyring
+sudo pacman -Sy archlinux-keyring
+sudo pacman -Sy archlinuxcn-keyring
+sudo pacman -Sy archlinux-keyring
+sudo pacman -Sy archlinux-keyring
+sudo pacman -Syu
+sudo pacman -Syu
+sudo pacman -Syu
+sudo pacman -Syu
+sudo pacman -Syu
+sudo pacman -Syu
+sudo pacman -Syu
+svi /etc/pacman.d/mirrorlist
+sudo pacman -Syu
+svi /etc/pacman.conf
+sudo pacman -Syu
+reboot
+paru
+paru
+reboot
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+df -h 
+ll /boot
+ll /boot/EFI
+ll /boot/EFI/Microsoft
+reboot
+paru
+paru
+vi
+reboot
+df -h 
+lsblk
+reboot
+lsblk
+lsblk
+reboot
+shutdown now
+reboot
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+ll
+cd /boot/EFI
+ll
+rm -rf Microsoft
+sudo rm -rf Microsoft
+ll
+cd
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+shutdown now
+sudo pacman -Syu
+fastfetch
+vi
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+ping ping.archlinux.org
+paru
+paru
+paru
+shutdown now
+cd dev
+ll
+cd horel.github.io
+ll
+git status
+lsblk -pf
+lsblk -p
+lsblk -h
+lsblk -pf
+cd /boot
+ll
+fastfetch
+clear
+cd
+sudo pacman -Scc
+sudo pacman -Qtdq | sudo pacman -Rns -\
+
+fastfetch
+df -h 
+ll
+rm -rf .wget-hsts
+clear
+ll /swapfile
+reboot
+lsblk -pf
+lsblk 
+lsblk -p
+sudo mount /dev/sda1 /tmp/xfsdump
+ll /tmp
+mkdir /tmp/xfsdump
+sudo mount /dev/sda1 /tmp/xfsdump
+ll /tmp
+sudo swapoff /swapfile
+sudo rm /swapfile
+ll
+ll /
+lsblk -p
+lsblk -pf
+ll
+df -h 
+ll dev
+ll dev/pytorch
+du -sh
+du -sh dev
+du -sh */ 
+ll
+du -sh */ 
+du -sh .*/
+cd dev
+du -sh */ 
+cd pytorch
+du -sh */ 
+du -sh .*/ 
+cd .venv
+du -sh .*/ 
+du -sh */
+cd lib
+ll
+cd
+ll
+ll dev
+rm -rf dev/pytorch
+ll
+cd .cache
+ll
+du -sh */
+paru -Scc
+du -sh */
+cd paru
+ll
+cd clone
+ll
+du -sh */
+cd google-chrome
+du -sh */
+ll
+cd ..
+cd ..
+rm -rf clone/*
+cd ..
+du -sh */
+cd uv
+ll
+du -sh */
+cd archive-v0
+ll
+du -sh */
+uv cache clean
+ll
+cd ..
+cd ..
+ll
+cd uv
+cd
+ll
+du -sh */
+du -sh .*/
+du -sh */
+du
+du -sh
+du -sh /
+du -sh */
+lsblk -pf
+sudo xfsdump -v trace -l 0 -f /tmp/xfsdump/home_backup.xfsdump /home
+sudo xfsdump -v trace -l 0 -f /tmp/xfsdump/root_backup.xfsdump /
+rm -rf /tmp/xfsdump/home_backup.xfsdump
+rm -rf /tmp/xfsdump/root_backup.xfsdump
+sudo xfsdump -v trace -l 0 -f /tmp/xfsdump/xfsdump/root_backup.xfsdump /
+sudo xfsdump -v trace -l 0 -f /tmp/xfsdump/xfsdump/home_backup.xfsdump /home
+sudo rsync -aH --delete /boot /tmp/xfsdump/xfsdump/boot_rsync
+reboot
+ll /
+reboot
+dd if=/dev/zero of=/swapfile bs=1M count=8192 status=progress
+sudo dd if=/dev/zero of=/swapfile bs=1M count=8192 status=progress
+chmod 600 /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+swapon /swapfile
+sudo swapon /swapfile
+ll /
+shutdown now
+shutdown now
+paru -Syu
+shutdown now
+shutdown now
+rm -rf .config/nvim
+vi
+vi .zprofile
+sudo pacman -Syu
+paru -Syu
+vi
+vi .zprofile
+cd .config/nvim
+ll
+./clean_nvim.sh
+nvim
+vi clean_nvim.sh
+cd
+ll
+cd dev
+ll
+git clone https://github.com/Anhelor/dotfiles.git
+cd dotfiles
+cp -r .config/nvim ~/.config
+cd
+z nvim
+ll
+./clean_nvim.sh
+vi
+sudo pacman -S tree-sitter tree-sitter-cli
+vi
+./clean_nvim.sh
+vi
+vi clean_nvim.sh
+clear
+vi .zprofile
+clear
+vi
+reboot
+paru -Syu
+paru -Syu
+ll
+vi .zprofile
+vi .zprofile
+vi .gitmodules
+vi .gitconfig
+git diff
+cd dev/horel.github.io
+ll
+git diff
+git diff --cached
+git diff HEAD
+ll
+vi README.md
+git diff
+sudo pacman -S git-delta
+git diff HEAD
+git --help
+git restore
+git restore README.md
+git diff HEAD
+cd
+vi .gitconfig
+ll
+cd .config
+vi chrome-flags.conf
+z horel
+git remote -v
+cd
+vi .gitconfig
+cd -
+z config
+ll
+cat stylua/stylua.toml
+vi zsh/.zshrc
+rm zsh/.zshrc
+vi zsh/.zshrc
+vi zsh/.zshrc
+l
+ll
+cd ÈÉÅπÁÉªÆ
+ll
+cd ..
+rm ÈÉÅπÁÉªÆ
+rm -r ÈÉÅπÁÉªÆ
+ll
+config submodule update
+config submodule update --remote --merge
+vi .config/environment.d/envvars.conf
+z font
+ll
+cd conf.d
+ll
+ll /usr/share/fontconfig/conf.avail/
+vi 50-generic.conf
+z nvim
+ll
+z alac
+ll
+vi alacritty.toml
+vi alacritty.toml
+vi alacritty.toml
+vi catppuccin-mocha.toml
+vi alacritty.toml
+vi alacritty.toml
+z alac
+vi catppuccin-mocha.toml
+vi
+mv ~/Downloads/catppuccin-macchiato.toml .
+ll
+vi alacritty.toml
+vi alacritty.toml
+vi alacritty.toml
+sudo pacman -Syu
+z alac
+vi alacritty.toml
+sudo pacman -Syu
+shutdown now
+z font
+cd conf.d
+ll
+vi 11-lcdfilter-default.conf
+ll /usr/share/fontconfig/conf.avail/
+clear
+l
+ln -s /usr/share/fontconfig/conf.avail/10-autohint.conf ~/.config/fontconfig/conf.d/10-autohint.conf\
+
+rm 10-autohint.conf
+ln -s /usr/share/fontconfig/conf.avail/10-autohint.conf ~/.config/fontconfig/conf.d/10-autohint.conf\
+
+ll
+pacman -Qs uv
+pacman -Qs jetbrains
+paru -Ss jetbrains
+sudo pacman -
+vi
+vi .zprofile
+pacman -Ss maple
+clear
+pacman -Ss maple
+sudo pacman -S ttf-maplemononormalnl-nf-cn
+shutdown now
+pacman -Qs noto | ttf
+pacman -Qs noto
+pacman -Qs ttf
+sudo pacman -S ttf-nerd-fonts-symbols
+sudo pacman -S ttf-nerd-fonts-symbols
+sudo pacman -Rns ttf-nerd-fonts-symbols-common
+sudo pacman -Rns ttf-nerd-fonts-symbols-mono
+sudo pacman -Rns ttf-nerd-fonts-symbols-common
+sudo pacman -Rns ttf-nerd-fonts-symbols
+sudo pacman -S ttf-nerd-fonts-symbols-mono
+sudo pacman -S ttf-nerd-fonts-symbols-mono
+sudo pacman -Rns ttf-nerd-fonts-symbols
+clear
+sudo pacman -Rns ttf-nerd-fonts-symbols-mono
+sudo pacman -S ttf-nerd-fonts-symbols
+sudo pacman -S ttf-nerd-fonts-symbols
+sudo pacman -Syu
+sudo pacman -Syu
+sudo pacman -Rns noto-fonts-extra
+sudo pacman -Rns ttf-sarasa-gothic
+sudo pacman -Rns ttf-opensans
+sudo pacman -Rns wqy-zenhei
+sudo pacman -Rns adobe-source-sans-fonts
+sudo pacman -Rns adobe-source-serif-fonts
+clear
+pacman -Ss ttf-ms
+paru -Ss ttf-ms
+cd dev/dotfiles
+ll
+cd .config/fontconfig
+cd conf.d
+ll
+vi 50-generic.conf
+cd .config/fontconfig/conf.d
+ll
+rm 50-generic.conf
+rm 51-language.conf
+cp 50-generic.conf ~/.config/fontconfig/conf.d/
+cp 51-language.conf ~/.config/fontconfig/conf.d/
+vi 50-generic.conf
+reboot
+sudo pacman -Syu
+ll
+cd .config/fontconfig/conf.d
+ll
+rm 10-autohint.conf
+ln -s /usr/share/fontconfig/conf.avail/10-autohint.conf ~/.config/fontconfig/conf.d/10-autohint.conf\
+
+ll
+clear
+reboot
+paru -Syu
+: 1776831095:0;shutdown now
+: 1776842147:0;paru -Syu
+: 1776842162:0;vi
+: 1776842398:0;z font
+: 1776842402:0;cd conf.d
+: 1776842406:0;ll
+: 1776842410:0;vi 50-generic.conf
+: 1776842906:0;ll
+: 1776842918:0;config status
+: 1776842985:0;cd
+: 1776842986:0;ll
+: 1776842990:0;config status
+: 1776843046:0;config add .cache/zsh/history

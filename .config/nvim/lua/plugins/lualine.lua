@@ -1,13 +1,15 @@
+local M = {}
+
 local opts = {
     options = {
-        theme = "catppuccin",
+        theme = "catppuccin-nvim",
         section_separators = "",
         component_separators = "",
     },
     sections = {
         lualine_a = { "mode" },
         lualine_b = { "branch", "diff" },
-        lualine_c = { "filename", "filesize" },
+        lualine_c = { { "filename", path = 1 }, "filesize" },
         lualine_x = {
             { "diagnostics", sources = { "nvim_diagnostic" } },
             "encoding",
@@ -19,6 +21,8 @@ local opts = {
     },
 }
 
-return function()
+function M.config()
     require("lualine").setup(opts)
 end
+
+return M
