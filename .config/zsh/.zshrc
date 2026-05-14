@@ -60,10 +60,10 @@ eval "$(zoxide init zsh)"
 
 # Alias
 alias history='fc -l 1'
-alias ls='exa'
-alias l='exa -lah'
-alias ll='exa -lah'
-alias tree='exa -Tlah'
+alias ls='eza'
+alias l='eza -lah'
+alias ll='eza -lah'
+alias tree='eza -Tlah'
 alias vi='nvim'
 alias svi='sudoedit'
 alias df='df -Th'
