@@ -25,7 +25,7 @@ sudo pacman -S --noconfirm --needed \
     nodejs pnpm \
     lua lua-language-server \
     flameshot mpv \
-    system-config-printer sddm-kcm
+    system-config-printer sddm-kcm run-parts
 
 # 安装aur软件包
 paru -S --noconfirm --needed google-chrome visual-studio-code-bin
