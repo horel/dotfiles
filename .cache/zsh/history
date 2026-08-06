@@ -2994,228 +2994,254 @@ ll
 clear
 reboot
 paru -Syu
-: 1776831095:0;shutdown now
-: 1776842147:0;paru -Syu
-: 1776842162:0;vi
-: 1776842398:0;z font
-: 1776842402:0;cd conf.d
-: 1776842406:0;ll
-: 1776842410:0;vi 50-generic.conf
-: 1776842906:0;ll
-: 1776842918:0;config status
-: 1776842985:0;cd
-: 1776842986:0;ll
-: 1776842990:0;config status
-: 1776843046:0;config add .cache/zsh/history
-: 1779197586:0;source .config/zsh/.zshrc
-: 1779197614:0;ls -la .config
-: 1779197621:0;cd .config
-: 1779197622:0;ls
-: 1779197628:0;sudo pacman -S eza
-: 1779197635:0;ls
-: 1779197638:0;./restore_dotfiles.sh
-: 1779201157:0;reboot
-: 1779201443:0;cd .config/nvim
-: 1779201445:0;ll
-: 1779201449:0;./clean_nvim.sh
-: 1779201555:0;vi
-: 1779201583:0;sudo vim /etc/default/grub
-: 1779201607:0;lsblk
-: 1779201617:0;sudo mkdir /mnt/udisk
-: 1779201630:0;sudo mount /dev/sda1 /mnt/udisk
-: 1779201637:0;cd /mnt/udisk
-: 1779201638:0;ll
-: 1779201654:0;cp CRT-Amber-Theme.zip /tmp
-: 1779201657:0;cd /tmp
-: 1779201663:0;unzip CRT-Amber-Theme.zip
-: 1779201665:0;ll
-: 1779201682:0;cp -r CRT-Amber-GRUB-Theme /boot/grub/themes/
-: 1779201689:0;sudo cp -r CRT-Amber-GRUB-Theme /boot/grub/themes/
-: 1779201700:0;cd /boot/grub/themes
-: 1779201701:0;ll
-: 1779201704:0;cd ..
-: 1779201706:0;ll
-: 1779201713:0;cd
-: 1779201720:0;sudo vim /etc/default/grub
-: 1779201797:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
-: 1779201817:0;reboot
-: 1779201933:0;ll
-: 1779201943:0;vi .gitconfig
-: 1779201953:0;vim .gitconfig
-: 1779201965:0;clear
-: 1779201966:0;ll
-: 1779201978:0;rm -rf .bash*
-: 1779201980:0;ll
-: 1779202000:0;vim .config/environment.d/envvars.conf
-: 1779202020:0;cd .config/nvim
-: 1779202021:0;ll
-: 1779202027:0;./clean_nvim.sh
-: 1779202036:0;vi
-: 1779202079:0;clear
-: 1779202083:0;cd
-: 1779202087:0;vi .zprofile
-: 1779202095:0;clear
-: 1779202111:0;vi .cache/zsh/history
-: 1779202139:0;vi .zprofile
-: 1779202148:0;clear
-: 1779202151:0;vi
-: 1779202202:0;sudo pacman -S ripgrep
-: 1779202213:0;clear
-: 1779202227:0;sudo snapper -c root list
-: 1779202257:0;sudo systemctl start snapper-cleanup.service
-: 1779202259:0;sudo snapper -c root list
-: 1779202299:0;reboot
-: 1779202530:0;svi /etc/default/grub-btrfs/config
-: 1779202605:0;svi /etc/default/grub-btrfs/config
-: 1779202625:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
-: 1779202638:0;reboot
-: 1779202796:0;svi /etc/default/grub-btrfs/config
-: 1779202857:0;ll /efi/grub/themes/
-: 1779202876:0;ll /boot/grub/themes
-: 1779202883:0;ll /boot
-: 1779202899:0;svi /etc/default/grub
-: 1779202914:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
-: 1779202922:0;reboot
-: 1779203122:0;mv /boot/grub/themes/CRT-Amber-GRUB-Theme /efi/grub/themes
-: 1779203130:0;svi /etc/default/grub
-: 1779203145:0;svi /etc/default/grub
-: 1779203156:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
-: 1779203165:0;reboot
-: 1779203531:0;sudo systemctl disable --now grub-btrfsd
-: 1779203541:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
-: 1779203559:0;svi /etc/default/grub
-: 1779203577:0;svi /etc/default/grub-btrfs/config
-: 1779203585:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
-: 1779203589:0;reboot
-: 1779203698:0;svi /etc/default/grub
-: 1779203712:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
-: 1779203740:0;reboot
-: 1779203997:0;sudo grub-install --target=x86_64-efi --efi-directory=/efi --boot-directory=/efi --bootloader-id=Arch --recheck
-: 1779204011:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
-: 1779204017:0;ll /efi
-: 1779204024:0;ll /boot
-: 1779204036:0;reboot
-: 1779204277:0;wc -l /boot/grub/grub.cfg
-: 1779204306:0;ls -la /etc/grub.d
-: 1779204493:0;cd /etc/grub.d
-: 1779204498:0;vi 41_snapshots-btrfs
-: 1779204530:0;sudo pacman -Rns exfat-utils 
-: 1779204543:0;sudo pacman -Scc
-: 1779204606:0;ll
-: 1779204616:0;rm 30_os-prober
-: 1779204621:0;ll
-: 1779204627:0;rm 30_os-prober
-: 1779204632:0;sudo rm 30_os-prober
-: 1779204634:0;ll
-: 1779204650:0;svi /etc/default/grub
-: 1779204659:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
-: 1779204673:0;ll
-: 1779204694:0;sudo rm 41_snapshots-btrfs
-: 1779204697:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
-: 1779204745:0;reboot
-: 1779204850:0;svi /etc/default/grub
-: 1779204867:0;sudo mkinitcpio -P
-: 1779204908:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
-: 1779204912:0;reboot
-: 1779205556:0;reboot
-: 1779205734:0;reboot
-: 1779205869:0;svi /etc/default/grub
-: 1779205922:0;mkdir /mnt/MS
-: 1779205932:0;sudo mkdir /mnt/MS
-: 1779205940:0;ll /mnt
-: 1779205957:0;sudo mkdir /tmp/msefi
-: 1779205964:0;lsblk
-: 1779205992:0;sudo mount /dev/nvme0n1p1 /tmp/msefi
-: 1779206007:0;svi /etc/default/grub-btrfs/config
-: 1779206030:0;sudo systemctl enable --now grub-btrfsd
-: 1779206041:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
-: 1779206065:0;svi /etc/default/grub
-: 1779206087:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
-: 1779206141:0;ll /etc/grub.d/
-: 1779206222:0;sudo pacman -S os-prober btrfs-grub
-: 1779206270:0;sudo pacman -S os-prober grub-btrfs
-: 1779206310:0;ll /etc/grub.d/
-: 1779206325:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
-: 1779206345:0;os-prober
-: 1779206350:0;sudo os-prober
-: 1779206355:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
-: 1779206372:0;lsblk
-: 1779206383:0;sudo pacman -S exfat-utils 
-: 1779206388:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
-: 1779206415:0;os-prober
-: 1779206457:0;sudo os-prober
-: 1779206461:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
-: 1779206475:0;svi /etc/default/grub
-: 1779206489:0;ll /etc/grub.d/
-: 1779206502:0;sudo pacman -S os-prober
-: 1779206508:0;ll /etc/grub.d/
-: 1779206574:0;sudo grub-install --target=x86_64-efi --efi-directory=/efi --boot-directory=/efi --bootloader-id=Arch --recheck
-: 1779206582:0;ll /etc/grub.d/
-: 1779206592:0;os-prober
-: 1779206600:0;sudo os-prober
-: 1779206611:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
-: 1779206691:0;svi /etc/snap-pac.ini
-: 1779206702:0;svi /etc/snapper
-: 1779206708:0;svi /etc/snapper/configs/root
-: 1779206773:0;svi /etc/snapper/configs/home
-: 1779206833:0;sudo systemctl start snapper-cleanup.service
-: 1779206839:0;sudo snapper -c root list
-: 1779206957:0;sudo pacman -S grub --overwrite 
-: 1779206969:0;sudo pacman -S grub --overwrite '*'
-: 1779206996:0;ll /etc/grub.d/
-: 1779207013:0;vi /etc/grub.d/30_
-: 1779207017:0;vi /etc/grub.d/30_os-prober
-: 1779207039:0;sudo grub-install --target=x86_64-efi --efi-directory=/efi --boot-directory=/efi --bootloader-id=Arch --recheck
-: 1779207049:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
-: 1779207076:0;sudo systemctl start snapper-cleanup.service
-: 1779207078:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
-: 1779207086:0;reboot
-: 1779207195:0;sudo snapper list
-: 1779207268:0;sudo systemctl status grub-btrfsd
-: 1779207273:0;sudo systemctl start snapper-cleanup.service
-: 1779207318:0;sudo snapper -c root delete 42-52
-: 1779207327:0;sudo snapper -c root list
-: 1779207338:0;sudo snapper -c root delete 1
-: 1779207348:0;sudo snapper -c root delete 18
-: 1779207350:0;sudo snapper -c root delete 19
-: 1779207356:0;sudo snapper -c root list
-: 1779207362:0;sudo snapper -c home list
-: 1779207379:0;sudo snapper -c home delete 1
-: 1779207382:0;sudo snapper -c home delete 2
-: 1779207384:0;sudo snapper -c home delete 3
-: 1779207387:0;sudo snapper -c home delete 8
-: 1779207393:0;sudo snapper -c home list
-: 1779207401:0;sudo pacman -Scc
-: 1779207408:0;fastfetch
-: 1779207545:0;sudo snapper -c home create -d "before desktop"
-: 1779207552:0;sudo snapper -c root create -d "before desktop"
-: 1779207556:0;sudo snapper -c home list
-: 1779207568:0;sudo snapper -c root list
-: 1779207590:0;sudo reboot
-: 1779208133:0;fastfetch
-: 1779208254:0;config submodule update --remote --recursive
-: 1779208350:0;config submodule update --remote --recursive
-: 1779208500:0;ping -c 3 www.baidu.com
-: 1779208505:0;config submodule update --remote --recursive
-: 1779208534:0;config submodule update --remote --recursive
-: 1779208550:0;ll
-: 1779208560:0;rm .viminfo
-: 1779208566:0;vi .gitmodules
-: 1779208584:0;ping -c 3 github.com
-: 1779208592:0;config submodule update --remote --recursive
-: 1779208647:0;config submodule update --init
-: 1779208662:0;ll .config/zsh/plugins/F-Sy-H
-: 1779208665:0;ll .config/zsh/plugins/
-: 1779208669:0;ll .config/zsh/plugins/zsh-autosuggestions
-: 1779208675:0;config submodule update --init
-: 1779208683:0;config submodule update --remote --recursive
-: 1779208700:0;config status
-: 1779208742:0;z zsh
-: 1779208749:0;cd .config/zsh/plugins
-: 1779208750:0;ll
-: 1779208752:0;cd zsh-autosuggestions
-: 1779208753:0;ll
-: 1779208757:0;git status
-: 1779208764:0;cd
-: 1779208766:0;config status
-: 1779208776:0;config add .cache/zsh/history
+shutdown now
+paru -Syu
+vi
+z font
+cd conf.d
+ll
+vi 50-generic.conf
+ll
+config status
+cd
+ll
+config status
+config add .cache/zsh/history
+source .config/zsh/.zshrc
+ls -la .config
+cd .config
+ls
+sudo pacman -S eza
+ls
+./restore_dotfiles.sh
+reboot
+cd .config/nvim
+ll
+./clean_nvim.sh
+vi
+sudo vim /etc/default/grub
+lsblk
+sudo mkdir /mnt/udisk
+sudo mount /dev/sda1 /mnt/udisk
+cd /mnt/udisk
+ll
+cp CRT-Amber-Theme.zip /tmp
+cd /tmp
+unzip CRT-Amber-Theme.zip
+ll
+cp -r CRT-Amber-GRUB-Theme /boot/grub/themes/
+sudo cp -r CRT-Amber-GRUB-Theme /boot/grub/themes/
+cd /boot/grub/themes
+ll
+cd ..
+ll
+cd
+sudo vim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+ll
+vi .gitconfig
+vim .gitconfig
+clear
+ll
+rm -rf .bash*
+ll
+vim .config/environment.d/envvars.conf
+cd .config/nvim
+ll
+./clean_nvim.sh
+vi
+clear
+cd
+vi .zprofile
+clear
+vi .cache/zsh/history
+vi .zprofile
+clear
+vi
+sudo pacman -S ripgrep
+clear
+sudo snapper -c root list
+sudo systemctl start snapper-cleanup.service
+sudo snapper -c root list
+reboot
+svi /etc/default/grub-btrfs/config
+svi /etc/default/grub-btrfs/config
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+svi /etc/default/grub-btrfs/config
+ll /efi/grub/themes/
+ll /boot/grub/themes
+ll /boot
+svi /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+mv /boot/grub/themes/CRT-Amber-GRUB-Theme /efi/grub/themes
+svi /etc/default/grub
+svi /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+sudo systemctl disable --now grub-btrfsd
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+svi /etc/default/grub
+svi /etc/default/grub-btrfs/config
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+svi /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+sudo grub-install --target=x86_64-efi --efi-directory=/efi --boot-directory=/efi --bootloader-id=Arch --recheck
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+ll /efi
+ll /boot
+reboot
+wc -l /boot/grub/grub.cfg
+ls -la /etc/grub.d
+cd /etc/grub.d
+vi 41_snapshots-btrfs
+sudo pacman -Rns exfat-utils 
+sudo pacman -Scc
+ll
+rm 30_os-prober
+ll
+rm 30_os-prober
+sudo rm 30_os-prober
+ll
+svi /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+ll
+sudo rm 41_snapshots-btrfs
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+svi /etc/default/grub
+sudo mkinitcpio -P
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+reboot
+reboot
+svi /etc/default/grub
+mkdir /mnt/MS
+sudo mkdir /mnt/MS
+ll /mnt
+sudo mkdir /tmp/msefi
+lsblk
+sudo mount /dev/nvme0n1p1 /tmp/msefi
+svi /etc/default/grub-btrfs/config
+sudo systemctl enable --now grub-btrfsd
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+svi /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+ll /etc/grub.d/
+sudo pacman -S os-prober btrfs-grub
+sudo pacman -S os-prober grub-btrfs
+ll /etc/grub.d/
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+os-prober
+sudo os-prober
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+lsblk
+sudo pacman -S exfat-utils 
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+os-prober
+sudo os-prober
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+svi /etc/default/grub
+ll /etc/grub.d/
+sudo pacman -S os-prober
+ll /etc/grub.d/
+sudo grub-install --target=x86_64-efi --efi-directory=/efi --boot-directory=/efi --bootloader-id=Arch --recheck
+ll /etc/grub.d/
+os-prober
+sudo os-prober
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+svi /etc/snap-pac.ini
+svi /etc/snapper
+svi /etc/snapper/configs/root
+svi /etc/snapper/configs/home
+sudo systemctl start snapper-cleanup.service
+sudo snapper -c root list
+sudo pacman -S grub --overwrite 
+sudo pacman -S grub --overwrite '*'
+ll /etc/grub.d/
+vi /etc/grub.d/30_
+vi /etc/grub.d/30_os-prober
+sudo grub-install --target=x86_64-efi --efi-directory=/efi --boot-directory=/efi --bootloader-id=Arch --recheck
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo systemctl start snapper-cleanup.service
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+reboot
+sudo snapper list
+sudo systemctl status grub-btrfsd
+sudo systemctl start snapper-cleanup.service
+sudo snapper -c root delete 42-52
+sudo snapper -c root list
+sudo snapper -c root delete 1
+sudo snapper -c root delete 18
+sudo snapper -c root delete 19
+sudo snapper -c root list
+sudo snapper -c home list
+sudo snapper -c home delete 1
+sudo snapper -c home delete 2
+sudo snapper -c home delete 3
+sudo snapper -c home delete 8
+sudo snapper -c home list
+sudo pacman -Scc
+fastfetch
+sudo snapper -c home create -d "before desktop"
+sudo snapper -c root create -d "before desktop"
+sudo snapper -c home list
+sudo snapper -c root list
+sudo reboot
+fastfetch
+config submodule update --remote --recursive
+config submodule update --remote --recursive
+ping -c 3 www.baidu.com
+config submodule update --remote --recursive
+config submodule update --remote --recursive
+ll
+rm .viminfo
+vi .gitmodules
+ping -c 3 github.com
+config submodule update --remote --recursive
+config submodule update --init
+ll .config/zsh/plugins/F-Sy-H
+ll .config/zsh/plugins/
+ll .config/zsh/plugins/zsh-autosuggestions
+config submodule update --init
+config submodule update --remote --recursive
+config status
+z zsh
+cd .config/zsh/plugins
+ll
+cd zsh-autosuggestions
+ll
+git status
+cd
+config status
+config add .cache/zsh/history
+dotfiles config --local status.showUntrackedFiles no
+dotfiles status
+dotfiles submodule update --init --recursive
+dotfiles submodule update --remote --merge
+cd .config/zsh/plugins
+ll
+ll F-Sy-H
+cd F-Sy-H
+git status
+cd ../zsh-autosuggestions
+git status
+reboot
+fastfetch
+clear
+vi .local/share/fcitx5/rime/default.custom.yaml
+vi .local/share/fcitx5/rime/rime_ice.custom.yaml
+: 1786035006:0;dotfiles status
+: 1786035015:0;vi .config/zsh/.zshrc
+: 1786035021:0;vi .config/zsh/.zshrc
+: 1786035038:0;vi .config/zsh/.zshrc
+: 1786035046:0;source .config/zsh/.zshrc
+: 1786035048:0;ll
+: 1786035075:0;dotfiles status
+: 1786035126:0;vi .gitmodules
+: 1786035138:0;vi .gitconfig
+: 1786035226:0;dotfiles add .cache/zsh/history

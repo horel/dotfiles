@@ -68,7 +68,7 @@ alias tree='eza -Tlah'
 alias vi='nvim'
 alias svi='sudoedit'
 alias df='df -Th'
-alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # Pyenv
 alias py='python'
